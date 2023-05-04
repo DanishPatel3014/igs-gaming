@@ -1,9 +1,26 @@
-import React from 'react'
+"use client";
+import { preLoaderAnim } from "@/src/animations";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
 
-function preloader() {
+function Preloader() {
+
+  useEffect(() => {
+   preLoaderAnim()
+  }, [])
+  
+
+
   return (
-    <div>preloader</div>
-  )
+    <>
+      <div className="preloader">
+        <div className="pre-ctn">
+          <span>Innovative</span>
+          <span>Game Studio</span>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default preloader
+export default Preloader;

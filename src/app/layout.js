@@ -5,7 +5,7 @@ import '../assets/css/base.css'
 import { Inter } from 'next/font/google'
 import { useEffect, useRef } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
-import Preloader from '../component/loaders/preloader';
+import Preloader from '../component/loaders/Preloader';
 
 
 const inter = Inter({ subsets: ['latin'] })
