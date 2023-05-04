@@ -14,9 +14,9 @@ function Preloader() {
   return (
     <>
       <div className="preloader">
-        <div className="xl:container pre-ctn border-slate-50 ">
+        <div className="pre-ctn ">
           <span>Innovative</span>
-          <span className="text-black">Game</span>
+          <span>Game</span>
           <span>Studio</span>
         </div>
       </div>
