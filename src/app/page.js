@@ -1,4 +1,6 @@
-import Link from "next/link";
+// import Preloader from '@/component/loaders/Preloader'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -8,6 +10,7 @@ export default function Home() {
           Danish Patel
           <Link href={'/about'}>about us</Link>
         </h1>
+        <h1 className='text-white'>safeer</h1>
         <p data-scroll data-scroll-speed="1.5">
           Hello Im Front End Developer👋
         </p>
@@ -21,5 +24,5 @@ export default function Home() {
         </p>
       </section>
     </main>
-  );
+  )
 }

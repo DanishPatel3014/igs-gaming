@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function page() {
   return (
-    <>
-       <section className="s s1" data-scroll-section>
+    <div>
+      <section className="s s1" data-scroll-section>
         <h1 data-scroll data-scroll-speed="1.2">
           Danish Patel
         </h1>
@@ -19,6 +19,6 @@ export default function page() {
           Hello Im Front End Developer👋
         </p>
       </section>
-    </>
+    </div>
   )
 }
