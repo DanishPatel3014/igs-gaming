@@ -1,10 +1,11 @@
 "use client";
 
-import './assets/css/globals.css'
-import './assets/css/base.css'
+import '../assets/css/globals.css'
+import '../assets/css/base.css'
 import { Inter } from 'next/font/google'
 import { useEffect, useRef } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
+import Preloader from '../component/loaders/preloader';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Preloader/>
       <div ref={scrollRef}>
         {children}
         </div>
