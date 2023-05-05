@@ -1,22 +1,19 @@
 "use client";
 
-import React, { useEffect } from "react";
+import { useRef, useEffect , React} from 'react';
 import { gsap } from "gsap";
 
 function Preloader() {
 
-  // useEffect(() => {
-  //  preLoaderAnim()
-  // }, [])
-  
-
+console.log(gsap);
 
   return (
     <>
       <div className="preloader">
-        <div className="xl:container pre-ctn border-slate-50 ">
-          <span>Innovative</span>
-          <span className="text-black">Game</span>
+        <div className="pre-ctn">
+        
+          <span id="test">Innovative</span>
+          <span>Game</span>
           <span>Studio</span>
         </div>
       </div>
