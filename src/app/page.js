@@ -10,7 +10,7 @@ export default function Home() {
           Danish Patel
           <Link href={'/about'}>about us</Link>
         </h1>
-        <h1 className='text-white'>safeer</h1>
+      
         <p data-scroll data-scroll-speed="1.5">
           Hello Im Front End Developer👋
         </p>

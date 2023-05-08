@@ -1,18 +1,18 @@
 "use client";
 
-import { useRef, useEffect , React} from 'react';
+import { useRef, useEffect , React, useState} from 'react';
 import { gsap } from "gsap";
+
 
 function Preloader() {
 
-console.log(gsap);
+  
 
   return (
     <>
-      <div className="preloader">
-        <div className="pre-ctn">
-        
-          <span id="test">Innovative</span>
+      <div className="preloader" >
+        <div className="pre-ctn">        
+          <span>Innovative</span>
           <span>Game</span>
           <span>Studio</span>
         </div>
