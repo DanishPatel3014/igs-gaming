@@ -26,6 +26,7 @@ setTimeout(()=>{
 }, [])
 
 
+
   const scrollRef = useRef(null);
   useEffect(() => {
     import("locomotive-scroll").then(locomotiveModule => {
@@ -36,6 +37,7 @@ setTimeout(()=>{
       })
     })
   }, [])
+
 
 
   return (
