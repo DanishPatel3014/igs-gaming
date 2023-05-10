@@ -16,7 +16,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: 55;
-  display: flex;
+ display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -24,17 +24,29 @@ body {
 
 .pre-ctn span {
   font-size: 65px;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Orbitron", sans-serif;
+   
+    
+ 
 }
-
+.pre-wrap {
+  height: 90px;
+  overflow: hidden;
+  position: relative;
+}
+.pre-ctn {
+  transform: translate(0px, 74px);
+  opacity: 0;
+}
 .char {
   transform: translateY(115px);
   transition: transform .5s;
 }
+
 /* Glitched */
 .glitch {
   color: white;
