@@ -23,13 +23,13 @@ export default function RootLayout({ children }) {
   //   // Simulate a delay before hiding the preloader
   //   setTimeout(() => {
   //     setLoading(false);
-  //   }, 3000);
+  //   }, 6000);
   // }, []);
 
   return (
     <html lang="en">
       <body className={inter.className}>
-        {
+        {/* {
           loading ?
           <Preloader/>
           :
@@ -37,7 +37,11 @@ export default function RootLayout({ children }) {
           <div>{children}</div>
         </main>
 
-        }
+        } */}
+{/* <Preloader/> */}
+<main data-scroll-container >
+          <div>{children}</div>
+        </main>
         
       </body>
     </html>

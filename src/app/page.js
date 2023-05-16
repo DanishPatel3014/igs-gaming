@@ -1,5 +1,5 @@
-// import Preloader from '@/component/loaders/Preloader'
 "use client"
+import Bannner from "@/components/models/Bannner";
 import { SmoothScrollProvider, SmoothScrollContext } from "./context/SmoothScroll.context";
 import { useContext } from "react";
 import Link from "next/link";
@@ -18,6 +18,12 @@ export default function Home() {
   };
   return (
     <SmoothScrollProvider options={{ smooth: true }}>
+      <section data-scroll-section className="vid">
+        <Bannner/>
+      {/* <video autoplay="true" loop muted width="100%" height="100%" >
+  <source  src={'https://download-video.akamaized.net/2/playback/1e8c2960-1375-490e-9a67-bd6d62320a9f/d2f2b161-5dcfb710?__token__=st=1684135302~exp=1684149702~acl=%2F2%2Fplayback%2F1e8c2960-1375-490e-9a67-bd6d62320a9f%2Fd2f2b161-5dcfb710%2A~hmac=020e11eee1dc36edb49233a82c18be25d00522fc34e6daaa8fa6b4623516d6ff&r=dXMtY2VudHJhbDE%3D'} type="video/mp4"/>
+</video> */}
+      </section>
       <div data-scroll-section>
         <Link href="/about">About page</Link>
         <h1 data-scroll data-scroll-position="top" data-scroll-speed="-1">

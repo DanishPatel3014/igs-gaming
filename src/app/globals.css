@@ -37,6 +37,7 @@ body {
   height: 90px;
   overflow: hidden;
   position: relative;
+  margin-bottom: 10px;
 }
 .pre-ctn {
   transform: translate(0px, 74px);
@@ -46,6 +47,40 @@ body {
   transform: translateY(115px);
   transition: transform .5s;
 }
+
+
+/* underline */
+
+.line {
+  width: 0%;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 100%;
+  margin: auto;
+}
+/* counter */
+
+
+.counter
+{
+  text-align: center;
+  position: absolute;
+  right: 34px;
+  bottom: 91px;
+  width: 205px;
+}
+.counter span{color:#fff;font-size:60px !important;width: 205px;}
+
+/* ROUNDED TEXT */
+
+.roundedText{position: absolute;right: 15px;bottom: 15px;animation: rotatory 20s linear infinite;}
+
+@keyframes rotatory {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+
+
 
 /* Glitched */
 .glitch {

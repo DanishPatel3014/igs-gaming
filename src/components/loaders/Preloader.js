@@ -8,8 +8,6 @@ import ReactCurvedText from 'react-curved-text';
 import Logo from '../../assets/images/logo.png'
 
 function Preloader() {
-  const [startLoad, setStartLoad] = useState(false);
-  const [showLogo, setShowLogo] = useState(false);
 
   useEffect(() => {
     // Gsap effect to bring text from bottom
@@ -26,31 +24,35 @@ function Preloader() {
       delay: 0.9
     });
 
+    gsap.to(".line", {
+      duration: 3,
+      width : '100%',
+      delay: 1
+    });
+
     gsap.to(".mainWrap", {
       opacity: 0,
       delay: '5.4'
     })
+    gsap.to(".preloader", {
+      opacity: 0,
+      delay: '5.9',
+      display : 'none',
+      duration: 2,
+    })
 
-    // Timer that change state upon which we are changing class of the main div to start the progress bar
-    setTimeout(() => {
-      setStartLoad(true);
-    }, 450);
 
-    setTimeout(() => {
-      setStartLoad(false);
-    }, 5600);
+  
+ 
+  
 
-    setTimeout(() => {
-      setShowLogo(true);
-    }, 5900);
-
-    return () => clearTimeout();
+   
   }, []);
 
 
   return (
     <>
-      <div className={startLoad ? "preloader startLoad" : "preloader"}>
+      <div className={"preloader"}>
         <div className="mainWrap">
           {/* Glitch text section, contains progress bar as ::before */}
           <div className="pre-wrap">
@@ -59,22 +61,24 @@ function Preloader() {
                 Innovative Game Studio
               </span>
             </div>
+           
           </div>
+          <div className="line"></div>
           {/* Rounded animated text component */}
-          <div className="roundedText">
+          <div className="roundedText ">
             <ReactCurvedText
-              width={300}
-              height={300}
-              cx={150}
-              cy={150}
-              rx={120}
-              ry={120}
+              width={240}
+              height={240}
+              cx={120}
+              cy={120}
+              rx={100}
+              ry={100}
               startOffset={0}
               reversed={true}
-              text="- Innovative Game Studio - Innovative Game Studio"
-              textProps={{ style: { fontSize: 26.8 } }}
+              text="- Innovative Game Studio - Innovative Game Studio - Innovative Game Studio"
+              textProps={{ style: { fontSize: 12.7 } }}
               textPathProps={{ style: { fill: '#fff' } }}
-              tspanProps={{ style: { color: '#fff' } }}
+              tspanProps={{ style: { color: '#fff', textTransform  : 'uppercase' } }}
               ellipseProps={null}
               svgProps={null}
             />
@@ -84,11 +88,7 @@ function Preloader() {
             <CountUp delay={0.9} start={0} end={100} duration={6} />
           </div>
         </div>
-        <Image
-          className={showLogo ? "PreLoaderLogo show" : "PreLoaderLogo"}
-          src={Logo}
-          alt="Innovative Game Studio"
-        />
+      
       </div>
     </>
   );
