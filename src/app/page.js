@@ -1,6 +1,9 @@
-"use client"
-import Bannner from "@/components/models/Bannner";
-import { SmoothScrollProvider, SmoothScrollContext } from "./context/SmoothScroll.context";
+"use client";
+import Banner from "@/components/models/Banner.js";
+import {
+  SmoothScrollProvider,
+  SmoothScrollContext,
+} from "./context/SmoothScroll.context";
 import { useContext } from "react";
 import Link from "next/link";
 
@@ -18,8 +21,10 @@ export default function Home() {
   };
   return (
     <SmoothScrollProvider options={{ smooth: true }}>
-      <Bannner/>
-      <div data-scroll-section>
+      <section className="mainbanner" data-scroll-section>
+        <Banner />
+      </section>
+      {/* <div data-scroll-section>
         <Link href="/about">About page</Link>
         <h1 data-scroll data-scroll-position="top" data-scroll-speed="-1">
           NextJS with Locomotive Scroll&nbsp;
@@ -142,7 +147,7 @@ export default function Home() {
         <a href="#top" onClick={goToTop}>
           Go to top
         </a>
-      </div>
+      </div> */}
     </SmoothScrollProvider>
   );
 }
