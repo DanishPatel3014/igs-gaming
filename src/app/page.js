@@ -7,6 +7,7 @@ import {
 import { useContext } from "react";
 import Link from "next/link";
 import Mainbanner from "@/components/models/Mainbanner";
+import Header from "@/components/header/Header";
 
 export default function Home() {
   const { scroll } = useContext(SmoothScrollContext);
@@ -22,8 +23,11 @@ export default function Home() {
   };
   return (
     <SmoothScrollProvider options={{ smooth: true } }   >
-      <Mainbanner />
-      <div data-scroll-section>
+    <Header/>
+     <Mainbanner />
+     
+     <div data-scroll-section>
+      <div style={{backgroundColor:'#fff'}} data-scroll-section>
         <Link href="/about">About page</Link>
         <h1 data-scroll data-scroll-position="top" data-scroll-speed="-1">
           NextJS with Locomotive Scroll&nbsp;
@@ -146,6 +150,7 @@ export default function Home() {
         <a href="#top" onClick={goToTop}>
           Go to top
         </a>
+      </div>
       </div>
     </SmoothScrollProvider>
   );

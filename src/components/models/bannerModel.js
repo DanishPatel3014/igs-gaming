@@ -9,7 +9,6 @@ export default function BannerModel() {
 
   const soldiers = useGLTF("../../model/Man/gLTF/Man.gltf");
   const animations = useAnimations(soldiers.animations, soldiers.scene);
-  console.log(animations);
   useEffect(() => {
     const action = animations.actions.Walk;
     action.play();
