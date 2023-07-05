@@ -8,8 +8,9 @@ import { useContext } from "react";
 import Link from "next/link";
 import Mainbanner from "@/components/models/Mainbanner";
 import Header from "@/components/header/Header";
-
+import { FaBeer } from 'react-icons/fa';
 export default function Home() {
+  
   const { scroll } = useContext(SmoothScrollContext);
 
   const goToSecondPart = (event) => {
@@ -34,6 +35,7 @@ export default function Home() {
           <span role="img" aria-label="rocket emoji">
             🚀
           </span>
+          <FaBeer />
         </h1>
         <div>
           <a href="#second-part" onClick={goToSecondPart}>

@@ -10,10 +10,7 @@ body {
   font-family: "Orbitron", sans-serif !important;
   background-color: #fff;
 }
-.c
-{
-  color: #fff;
-}
+
 /* ===PreLoader=== */
 .preloader {
   width: 100%;
@@ -259,6 +256,53 @@ body {
 /* ===PreLoader=== */
 
 
+/* =====Headrer========= */
+.header {
+ 
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+   
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 600;
+  background-color: #4D37F5;
+  text-align: center;
+  padding: 9px 0px;
+  letter-spacing: 1px;
+  width: 85px;
+}
+.hambrger {
+  background-color: #4D37F5;
+  text-align: center;
+  padding: 9px 0px;
+  width: 85px;
+  height: 70px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hambrger span {
+  height: 1px;
+  width: 30px;
+  background-color: #fff;
+  display: block;
+}
+
+.hicon {
+  display: inline-grid;
+  gap: 8px;
+}
+/* ======Header========= */
+
+
+
 /* Main Banner */
 .mainbanner
 {
@@ -271,20 +315,25 @@ body {
   background-size: cover;
   height: 100vh;
 }
+.loop-wrap {
+  background-color: #4d37f58f;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  height: 200px;
+  z-index: -1;
+  width: 100%;
+}
 .loop
 {
-    display: flex;
-    position: absolute;
-    top: 40%;
-    height: 200px;
-    width: 100%;
-    font-size: 100px;
-    white-space: nowrap;
-    background-color: #4392f375;
-    z-index: -1;
+  display: flex;
+  width: 100%;
+  font-size: 100px;
+  white-space: nowrap;
+  z-index: -1;
    
 }
-.loop>h1{
+.loop h1{
     font-weight: 400;
     animation-name: anim;
     animation-duration: 15s;
@@ -293,9 +342,9 @@ body {
     color: #fff;
     font-size: 1.5em;
     line-height: initial;
-
+   
 }
-.loop>h1>span{
+.loop h1 span{
     -webkit-text-stroke: 2px #fff;
     color: transparent;
     font-weight: 500;
@@ -310,14 +359,54 @@ body {
 }
 
 
-/* ====Header====== */
-.header {
-  background: #000;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    z-index: 1;
-    padding: 50px 0;
+
+
+
+.c-direction-block_item {
+  position: absolute;
+  font-size: 10vw;
+  white-space: nowrap;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.c-direction-block_item span {
+  display: block;
+  background-color: #fff;
+  white-space: nowrap;
+  padding: 0 20px;
+}
+
+.c-direction-block_item.-five {
+  top: 63%;
+  transform: translateX(-10vw) rotate(3deg);
 }
 
 
+
+/* ===== */
+.ban-btm {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+ul.s-link>li>a {
+  width: 40px;
+  height: 40px;
+ color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #4D37F5;
+}
+
+ul.s-link {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.link-wrp {
+  text-align: right;
+}
