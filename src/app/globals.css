@@ -384,7 +384,7 @@ body {
 
 
 
-/* ===== */
+/* =====socail-icon===sound====== */
 .ban-btm {
   width: 100%;
   position: absolute;
@@ -409,4 +409,38 @@ ul.s-link {
 
 .link-wrp {
   text-align: right;
+}
+.sound a {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #4D37F5;
+}
+
+/* About-Sec */
+.about-sec
+{
+  background-color: #01014C;
+}
+.h-wrp h1 {
+  font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.h-wrp h2 {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.h-wrp span
+{
+  color: #e3ff00;
 }

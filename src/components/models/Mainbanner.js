@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import Link from "next/link";
 import { BiLogoFacebook,BiLogoInstagram,BiLogoLinkedin } from 'react-icons/bi';
-
+import { AiOutlineSound } from 'react-icons/ai';
 export default function Mainbanner() {
   return (
     <>
@@ -54,7 +54,11 @@ export default function Mainbanner() {
           
           <div className="ban-btm  px-9 py-5" data-scroll-section>
           <div className="grid grid-cols-2">
-            <div></div>
+            <div className="sund-wrap">
+              <div className="sound">
+                <Link href={''}><AiOutlineSound/></Link>
+              </div>
+            </div>
             <div className="link-wrp">
               <ul className="s-link">
                 <li><Link href={''} ><BiLogoFacebook/></Link></li>

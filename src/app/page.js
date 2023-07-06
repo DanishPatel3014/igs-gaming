@@ -9,6 +9,7 @@ import Link from "next/link";
 import Mainbanner from "@/components/models/Mainbanner";
 import Header from "@/components/header/Header";
 import { FaBeer } from 'react-icons/fa';
+import About from "@/components/about/About";
 export default function Home() {
   
   const { scroll } = useContext(SmoothScrollContext);
@@ -28,6 +29,7 @@ export default function Home() {
      <Mainbanner />
      
      <div data-scroll-section>
+      <About/>
       <div style={{backgroundColor:'#fff'}} data-scroll-section>
         <Link href="/about">About page</Link>
         <h1 data-scroll data-scroll-position="top" data-scroll-speed="-1">
