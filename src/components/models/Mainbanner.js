@@ -6,8 +6,7 @@ import { AiOutlineSound } from 'react-icons/ai';
 export default function Mainbanner() {
   return (
     <>
-      <div data-scroll-section>
-        <section className="mainbanner" id="direction">
+       <section className="mainbanner" id="direction" >
           <div className="loop-wrap " data-scroll-section>
             <div
               className="loop"
@@ -52,7 +51,7 @@ export default function Mainbanner() {
 
           <Banner />
           
-          <div className="ban-btm  px-9 py-5" data-scroll-section>
+          <div className="ban-btm  px-9 py-5" >
           <div className="grid grid-cols-2">
             <div className="sund-wrap">
               <div className="sound">
@@ -70,6 +69,8 @@ export default function Mainbanner() {
           </div>
           
         </section>
+      <div >
+     
       </div>
     </>
   );

@@ -7,7 +7,7 @@ export default function About() {
     <>
       <section className="about-sec py-36" data-scroll-section>
         <div className="container  mx-auto"  >
-        <div className="h-wrp mb-28">
+        <div className="m-h h-wrp mb-28">
             <h1>
             We Bring Whole-assed gaming<br/>Creative Solutions
             </h1>

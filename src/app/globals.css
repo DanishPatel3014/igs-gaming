@@ -18,6 +18,14 @@ body {
 line-height: 30px;
 font-size: 16px;
 }
+.m-h
+{
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
 
 /* ===PreLoader=== */
 .preloader {
@@ -270,7 +278,7 @@ font-size: 16px;
     position: absolute;
     width: 100%;
     top: 0;
-    z-index: 1;
+    z-index: 2;
    
 }
 
@@ -433,14 +441,10 @@ ul.s-link {
 .about-sec
 {
   background-color: #01014C;
+  z-index: 2;
+  position: relative;
 }
-.h-wrp h1 {
-  font-size: 60px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 4px;
-}
+
 
 .h-wrp h2 {
   font-size: 60px;
@@ -472,4 +476,61 @@ ul.btn-list a svg {
   font-size: 16px;
   margin-left: 9px;
   color: #e3ff00;
+}
+
+/* ==work-sec=== */
+
+/* --- */
+.tiles__line {
+  display: flex;
+}
+
+.tiles__line-img {
+  margin: 15px;
+  flex: none;
+}
+.tiles__line-img img {
+  width: 400px;
+}
+.tiles__wrap {
+  width: 110%;
+  position: absolute;
+  right: -4%;
+  bottom: -44%;
+  transform: rotate(351deg);
+}
+
+
+
+.tiles {
+  height: 110vh;
+  position: relative;
+  overflow: hidden;
+}
+/* --- */
+
+
+
+
+.work-sec
+{
+  background-color: #4D37F5;
+}
+.sbody-wrp {
+  z-index: 2;
+  position: relative;
+}
+.w-h h1
+{
+  font-size: 95px;
+  font-weight: 700;
+}
+.w-h span {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.w-h span img
+{
+width: 70%;
+margin: auto;
 }
