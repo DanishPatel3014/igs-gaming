@@ -9,10 +9,7 @@ export default function About() {
     const handleScroll = () => {
       var theta = window.scrollY() / 600 % Math.PI
       console.log(theta)
-      // const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      // const rotationAngle = scrollTop * 0.5; // Adjust the rotation speed as desired
-      // setRotation(rotationAngle);
-      // console.log(rotationAngle)
+      
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -26,6 +23,7 @@ export default function About() {
     <>
       <section className="about-sec py-36" data-scroll-section>
         <div className="container  mx-auto"  >
+        <div className="m-h h-wrp mb-28">
           <div className="h-wrp mb-28">
             <h1>
               We Bring Whole-assed gaming<br />Creative Solutions
@@ -45,6 +43,7 @@ export default function About() {
             </div>
           </div>
           <img style={{ transform: `rotate(${rotation}deg)` }} id='shiledImage2' src="./images/shield2.png" />
+        </div>
         </div>
       </section>
     </>

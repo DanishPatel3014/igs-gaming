@@ -53,7 +53,7 @@ export default function Mainbanner() {
 
           <Banner />
 
-          <div className="ban-btm  px-9 py-5" data-scroll-section>
+          <div className="ban-btm  px-9 py-5">
             <div className="grid grid-cols-2">
               <audio autoPlay={true} controls={true} loop={true} ref={audioRef} style={{display: 'none'}}>
                 <source src="game.mp3" type="audio/mp3" />
