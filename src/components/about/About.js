@@ -3,21 +3,21 @@ import React, { useEffect, useState } from "react";
 import { BsArrowUpRight } from 'react-icons/bs';
 
 export default function About() {
-  const [rotation, setRotation] = useState(0);
+  // const [rotation, setRotation] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      var theta = window.scrollY() / 600 % Math.PI
-      console.log(theta)
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     var theta = window.scrollY() / 600 % Math.PI
+  //     console.log(theta)
       
-    };
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   return (
     <>
@@ -42,7 +42,7 @@ export default function About() {
               If you ask our clients what it’s like working with 36, they’ll talk about how much we care about their success. For us, real relationships fuel real success. We love building brands and helping clients conquer the world with them.
             </div>
           </div>
-          <img style={{ transform: `rotate(${rotation}deg)` }} id='shiledImage2' src="./images/shield2.png" />
+          {/* <img style={{ transform: `rotate(${rotation}deg)` }} id='shiledImage2' src="./images/shield2.png" /> */}
         </div>
         </div>
       </section>
