@@ -1,16 +1,22 @@
-import React from 'react'
+import { gsap } from 'gsap';
+import React, { useEffect } from 'react'
 
 export default function Services() {
+
+
+
+
+
+
+    
     return (
-        <section className="service-sec" data-scroll-section>
-            <div className='container mx-auto'>
-                <div className='row'>
-                    <div className='serHead'>
-                        <h2>Top Notch Solutions <br /> to your needs</h2>
-                        <p>We offer a wide range of services designed to help you achieve your goals, from design and user experience to custom development and third-party integrations.</p>
-                        <button>Get Started</button>
-                    </div>
-                    <div className='serviceList'>
+        <>
+        <section id="about"    className="service-sec box" data-scroll-section>
+        
+            <div className='container mx-auto'  >
+                <div className='grid grid-cols-2 '>
+                    
+                    <div className='serviceList' >
                         <ul>
                             <li>
                                 <img src='./images/service1.png' />
@@ -46,6 +52,9 @@ export default function Services() {
                     </div>
                 </div>
             </div>
+            
         </section>
+       
+        </>
     )
 }

@@ -51,7 +51,7 @@ export default function Mainbanner() {
             </div>
           </div>
 
-          <Banner />
+          {/* <Banner /> */}
 
           <div className="ban-btm  px-9 py-5">
             <div className="grid grid-cols-2">
@@ -94,9 +94,7 @@ export default function Mainbanner() {
           </div>
 
         </section>
-      <div >
-     
-      </div>
+      
     </>
   );
 }

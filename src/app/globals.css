@@ -104,24 +104,6 @@ font-weight: 400;
   100% { transform: rotate(360deg);}
 }
 
-section.service-sec{background:#1a1a1a;color:#fff;padding:80px 0;}
-.row{display: flex;align-items: flex-start;justify-content: space-between;}
-.row>div:first-child{width: 40%;}
-.row>div:last-child{width: 45%;}
-.serHead{position: sticky;top: 80px;}
-.serHead>h2{font-size: 52px;font-weight: 700;padding: 0 0 25px 0;}
-.serHead>p{font-size: 22px;padding: 0 0 20px 0;}
-.serHead>button{background-color: #fff;color: #1a1a1a;padding: 12px 20px;}
-.serviceList>ul>li{padding: 40px 15px;position: relative;border-bottom: 1px solid #adadad;}
-.serviceList>ul>li>h3{font-weight: 600;font-size: 42px;padding: 0 0 20px 0;}
-.serviceList>ul>li>p{font-size: 20px;}
-.serviceList>ul>li::before{position: absolute;top: 0;right: 0;font-size: 82px;-webkit-text-stroke: 1px;-webkit-text-stroke-color: #fff;-webkit-text-stroke-width: 1px;-webkit-text-fill-color: #1a1a1a;opacity: 0.2;}
-.serviceList>ul>li:nth-child(1):before{content: "1";}
-.serviceList>ul>li:nth-child(2):before{content: "2";}
-.serviceList>ul>li:nth-child(3):before{content: "3";}
-.serviceList>ul>li:nth-child(4):before{content: "4";}
-.serviceList>ul>li:nth-child(5):before{content: "5";}
-.serviceList>ul>li:nth-child(6):before{content: "6";}
 
 
 /* Glitched */
@@ -555,3 +537,28 @@ ul.btn-list a svg {
 width: 70%;
 margin: auto;
 }
+
+.box-square {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+/* =====services ===== */
+section.service-sec{background:#1a1a1a;color:#fff;padding:80px 0;}
+
+
+.serHead>h2{font-size: 52px;font-weight: 700;padding: 0 0 25px 0;}
+.serHead>p{font-size: 22px;padding: 0 0 20px 0;}
+.serHead>button{background-color: #fff;color: #1a1a1a;padding: 12px 20px;}
+.serviceList>ul>li{padding: 40px 15px;position: relative;border-bottom: 1px solid #adadad;}
+.serviceList>ul>li>h3{font-weight: 600;font-size: 42px;padding: 0 0 20px 0;}
+.serviceList>ul>li>p{font-size: 20px;}
+.serviceList>ul>li::before{position: absolute;top: 0;right: 0;font-size: 82px;-webkit-text-stroke: 1px;-webkit-text-stroke-color: #fff;-webkit-text-stroke-width: 1px;-webkit-text-fill-color: #1a1a1a;opacity: 0.2;}
+.serviceList>ul>li:nth-child(1):before{content: "1";}
+.serviceList>ul>li:nth-child(2):before{content: "2";}
+.serviceList>ul>li:nth-child(3):before{content: "3";}
+.serviceList>ul>li:nth-child(4):before{content: "4";}
+.serviceList>ul>li:nth-child(5):before{content: "5";}
+.serviceList>ul>li:nth-child(6):before{content: "6";}
