@@ -12,6 +12,10 @@ import { FaBeer } from 'react-icons/fa';
 import About from "@/components/about/About";
 import Work from "@/components/work/Work";
 import Services from "@/components/Services/Services";
+import Infovideo from "@/components/infovideo/Infovideo";
+import Partner from "@/components/partner/Partner";
+import Footer from "@/components/footer/Footer";
+
 export default function Home() {
 
   const { scroll } = useContext(SmoothScrollContext);
@@ -33,8 +37,12 @@ export default function Home() {
       <div className="sbody-wrp">
         <About />
         <Work />
+       <Infovideo/>
         <Services />
+        <Partner/>
+        <Footer/>
       </div>
+      
     </SmoothScrollProvider>
   );
 }

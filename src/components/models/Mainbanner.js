@@ -14,7 +14,7 @@ export default function Mainbanner() {
               className="loop"
               data-scroll
               data-scroll-direction="horizontal"
-              data-scroll-speed="-20"
+              data-scroll-speed="20"
               data-scroll-target="#direction"
               data-scroll-delay="0.05"
             >
