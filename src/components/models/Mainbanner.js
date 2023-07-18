@@ -18,40 +18,32 @@ export default function Mainbanner() {
               data-scroll-target="#direction"
               data-scroll-delay="0.05"
             >
-              <h1>
-                <b>CYBER</b>FICTION IS THE{" "}
-                <b>
-                  <i>REAL</i>
-                </b>{" "}
-                <span>STORY</span> IN THE{" "}
+             
+             <h1>
+                CYBER FICTION IS THE REAL 
+                <span>STORY</span>IN THE 
                 <span>
-                  <i>METAVERSE.</i>
+                  METAVERSE.
                 </span>
               </h1>
               <h1>
-                <b>CYBER</b>FICTION IS THE{" "}
-                <b>
-                  <i>REAL</i>
-                </b>{" "}
-                <span>STORY</span> IN THE{" "}
+                CYBER FICTION IS THE REAL 
+                <span>STORY</span>IN THE 
                 <span>
-                  <i>METAVERSE.</i>
+                  METAVERSE.
                 </span>
               </h1>
               <h1>
-                <b>CYBER</b>FICTION IS THE{" "}
-                <b>
-                  <i>REAL</i>
-                </b>{" "}
-                <span>STORY</span> IN THE{" "}
+                CYBER FICTION IS THE REAL 
+                <span>STORY</span>IN THE 
                 <span>
-                  <i>METAVERSE.</i>
+                  METAVERSE.
                 </span>
               </h1>
             </div>
           </div>
 
-          {/* <Banner /> */}
+          <Banner />
 
           <div className="ban-btm  px-9 py-5">
             <div className="grid grid-cols-2">

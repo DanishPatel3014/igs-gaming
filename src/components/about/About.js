@@ -25,9 +25,13 @@ export default function About() {
                   <li><Link href={''}>meet us<BsArrowUpRight /></Link></li>
                 </ul>
               </div>
-              <div className="p1 para">
-                If you ask our clients what it’s like working with 36, they’ll talk about how much we care about their success. For us, real relationships fuel real success. We love building brands and helping clients conquer the world with them.
+             <div className="miswrp">
+             <div className="p1  s-h">
+                <h4>OUR MISSION</h4>
+                <p>IBy launching chances for internal and external stakeholders, we will never cease yearning to the future beyond and becoming a lighthouse for future generations in the technological premise with originality, distinction, industry astuteness, research advancement, and incredibility in development.</p>
               </div>
+            
+             </div>
             </div>
             <div className="abtRoundMain">
               <div className="roundedTextAbt">

@@ -22,21 +22,21 @@ export default function Footer() {
         <div className="ft-slink mb-28">
           <div class="page14-inner">
             <h1>Facebook</h1>
-            <Link href={""}>
+            <Link href={"./"}>
               <BsArrowUpRight />
             </Link>
             <div class="center14"></div>
           </div>
           <div class="page14-inner">
             <h1>LinkedIn</h1>
-            <Link href={""}>
+            <Link href={"/about"}>
               <BsArrowUpRight />
             </Link>
             <div class="center14"></div>
           </div>
           <div class="page14-inner">
             <h1>Instagram</h1>
-            <Link href={""}>
+            <Link href={"/services"}>
               <BsArrowUpRight />
             </Link>
             <div class="center14"></div>
@@ -154,7 +154,7 @@ export default function Footer() {
             </div>
         </div>
         </div>
-        <div className="copy py-5 px-14 grid grid-cols-2  items-center ">
+        <div className="copy py-9 px-14 grid grid-cols-2  items-center ">
         <div className="logo-wrap">
               <div className="logo drop-shadow-2xl">igs</div>
             </div>

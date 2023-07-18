@@ -34,14 +34,12 @@ export default function Home() {
       <Header />
       <Mainbanner />
 
-      <div className="sbody-wrp">
-        <About />
+      <About />
         <Work />
        <Infovideo/>
         <Services />
         <Partner/>
         <Footer/>
-      </div>
       
     </SmoothScrollProvider>
   );
