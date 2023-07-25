@@ -3,8 +3,6 @@ import { SmoothScrollProvider, SmoothScrollContext } from "../context/SmoothScro
 import { useContext } from "react";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
-import Servicesbanner from "@/components/innerbanner/Servicesbanner";
-import Servicesdetails from "@/components/Services/Servicesdetails";
 import Teambanner from "@/components/innerbanner/Teambanner";
 import Ourteam from "@/components/team/Ourteam";
 

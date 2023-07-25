@@ -16,23 +16,37 @@ import irfan from "../../assets/images/team/irfan.png";
 import act from "../../assets/images/team/act.png";
 import mark from "../../assets/images/team/mark.png";
 import muk from "../../assets/images/team/muk.png";
+import ggame from "../../assets/images/team/ggame.png";
 import ahraz from "../../assets/images/team/ahraz.png";
 import paint from "../../assets/images/team/paint.png";
 import swi from "../../assets/images/team/swi.png";
 import khi from "../../assets/images/team/khi.png";
+import dance from "../../assets/images/team/dance.png";
 import danish from "../../assets/images/team/danish.png";
 import gym from "../../assets/images/team/gym.png";
 import boox from "../../assets/images/team/boox.png";
 import cyc from "../../assets/images/team/cyc.png";
 import mid from "../../assets/images/team/mid.png";
+import smile from "../../assets/images/team/smile.png";
+import travel from "../../assets/images/team/travel.png";
+import food from "../../assets/images/team/food.png";
 import anusha from "../../assets/images/team/anusha.png";
+import read from "../../assets/images/team/read.png";
+import coffee from "../../assets/images/team/coffee.png";
+import cookie from "../../assets/images/team/cookie.png";
 import fatima from "../../assets/images/team/fatima.png";
+import social from "../../assets/images/team/social.png";
+import hash from "../../assets/images/team/hash.png";
 import daniyal from "../../assets/images/team/daniyal.png";
 import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedinIn,FaDiscord,FaFacebookF,FaTwitter } from 'react-icons/fa';
 
 export default function Ourteam() {
+
+
+
+
   return (
     <>
       <section className="team-sec py-48" data-scroll-section>
@@ -162,11 +176,9 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Muhammad Mukarram</h4>
-                      <h4>Muhammad Mukarram</h4>
-                      <h4>Muhammad Mukarram</h4>
-                      <h4>Muhammad Mukarram</h4>
-                      <h4>Muhammad Mukarram</h4>
+                      <h4>Muhammad Mukarram<span><Image src={ggame}/></span>Muhammad Mukarram<span><Image src={movie}/></span>Muhammad Mukarram<span><Image src={act}/></span></h4>
+                      <h4>Muhammad Mukarram<span><Image src={ggame}/></span>Muhammad Mukarram<span><Image src={movie}/></span>Muhammad Mukarram<span><Image src={act}/></span></h4>
+                      <h4>Muhammad Mukarram<span><Image src={ggame}/></span>Muhammad Mukarram<span><Image src={movie}/></span>Muhammad Mukarram<span><Image src={act}/></span></h4>
                     </div>
                   </div>
                   <Image src={muk}/>
@@ -199,11 +211,8 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Khizar Hayat</h4>
-                      <h4>Khizar Hayat</h4>
-                      <h4>Khizar Hayat</h4>
-                      <h4>Khizar Hayat</h4>
-                      <h4>Khizar Hayat</h4>
+                      <h4>Khizar Hayat<span><Image src={dance}/></span>hizar Hayat<span><Image src={movie}/></span>hizar Hayat<span><Image src={paint}/></span></h4>
+                      <h4>Khizar Hayat<span><Image src={dance}/></span>hizar Hayat<span><Image src={movie}/></span>hizar Hayat<span><Image src={paint}/></span></h4>
                     </div>
                   </div>
                   <Image src={khi}/>
@@ -237,11 +246,8 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Midhat Nazim</h4>
-                      <h4>Midhat Nazim</h4>
-                      <h4>Midhat Nazim</h4>
-                      <h4>Midhat Nazim</h4>
-                      <h4>Midhat Nazim</h4>
+                      <h4>Midhat Nazim<span><Image src={travel}/></span>Midhat Nazim<span><Image src={food}/></span>Midhat Nazim<span><Image src={smile}/></span></h4>
+                      <h4>Midhat Nazim<span><Image src={travel}/></span>Midhat Nazim<span><Image src={food}/></span>Midhat Nazim<span><Image src={smile}/></span></h4>
                     </div>
                   </div>
                   <Image src={mid}/>
@@ -274,11 +280,8 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Daniyal Khatib</h4>
-                      <h4>Daniyal Khatib</h4>
-                      <h4>Daniyal Khatib</h4>
-                      <h4>Daniyal Khatib</h4>
-                      <h4>Daniyal Khatib</h4>
+                      <h4>Daniyal Khatib<span><Image src={movie}/></span>Daniyal Khatib<span><Image src={act}/></span>Daniyal Khatib<span><Image src={food}/></span></h4>
+                      <h4>Daniyal Khatib<span><Image src={movie}/></span>Daniyal Khatib<span><Image src={act}/></span>Daniyal Khatib<span><Image src={food}/></span></h4>
                     
                     </div>
                   </div>
@@ -418,7 +421,7 @@ export default function Ourteam() {
                     </div>
                     <div className="tlh tline2">
                     <h4>Danish Patel<span><Image src={gym}/></span>Danish Patel<span><Image src={boox}/></span>Danish Patel<span><Image src={cyc}/></span></h4>
-                  
+                    <h4>Danish Patel<span><Image src={gym}/></span>Danish Patel<span><Image src={boox}/></span>Danish Patel<span><Image src={cyc}/></span></h4>
                     
                     </div>
                   </div>
@@ -452,11 +455,8 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>anush ather</h4>
-                      <h4>anush ather</h4>
-                      <h4>anush ather</h4>
-                      <h4>anush ather</h4>
-                      <h4>anush ather</h4>
+                      <h4>anush ather<span><Image src={read}/></span>anush ather<span><Image src={cookie}/></span>anush ather<span><Image src={coffee}/></span></h4>
+                      <h4>anush ather<span><Image src={read}/></span>anush ather<span><Image src={cookie}/></span>anush ather<span><Image src={coffee}/></span></h4>
                     
                     </div>
                   </div>
@@ -490,11 +490,9 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Fatima Ali </h4>
-                      <h4>Fatima Ali </h4>
-                      <h4>Fatima Ali </h4>
-                      <h4>Fatima Ali </h4>
-                      <h4>Fatima Ali </h4>
+                      <h4>Fatima Ali<span><Image src={hash}/></span>Fatima Ali<span><Image src={social}/></span>Fatima Ali<span><Image src={mark}/></span></h4>
+                      <h4>Fatima Ali<span><Image src={hash}/></span>Fatima Ali<span><Image src={social}/></span>Fatima Ali<span><Image src={mark}/></span></h4>
+                     
                     
                     </div>
                   </div>
