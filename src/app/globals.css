@@ -340,14 +340,32 @@ font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  z-index: 100;
+  position: relative;
 }
 .hambrger span {
   height: 2px;
   width: 35px;
   background-color: #000000	;
   display: block;
+  transition: 0.4s ease-in-out;
 }
-
+.menuOpen span:nth-child(1){transform:translateY(5px) rotate(45deg);}
+.menuOpen span:nth-child(2){transform:translateY(-5px) rotate(-45deg);}
+.greenCircle,.blackCircle,.menuOverlay{overflow: hidden;position:absolute;top:0;border-radius:20%;transition: 0.8s;height:100vh;width: 0%;}
+.menuOverlay{border-radius: 0%;background-color: #000000cb;display: none;opacity: 0;left: 0;width: 100% !important;}
+.menuOverlay.menuOpen{display: initial;opacity: 1;}
+.greenCircle{background-color:#b8e132b5;left: 0;border-radius: 0%;}
+.greenCircle.menuOpen{width:100%;transform:rotate(0deg);}
+.blackCircle{width:100%;left:0;background-color:#1a1a1a;right: 0;margin: 0 auto;height: 0vh;display: flex;align-items: center;justify-content: center;transition:all 1s cubic-bezier( 0.99, 0, 0, 0.73 );border-radius: 0;}
+.blackCircle.menuOpen{transform:rotate(0deg);height: 100vh;}
+.blackCircle>div{transform: rotate(0deg);margin:0;}
+.blackCircle>div>div{padding:1.2vw 5vw;height:15.3%;width:70vw;}
+.blackCircle>div>div a{border-width: 3px;}
+.blackCircle>div>div>h1{font-size: 2vw;}
+.blackCircle>div>div:hover{color: #1a1a1a;}
+.blackCircle>div>div:hover a{border-color: #1a1a1a;}
 .hicon {
   display: inline-grid;
   gap: 8px;
