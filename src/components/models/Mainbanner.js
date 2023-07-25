@@ -52,7 +52,7 @@ export default function Mainbanner() {
             </div>
           </div>
 
-          <Banner />
+          {/* <Banner /> */}
 
           <div className="ban-btm  px-9 py-5" data-scroll-section>
             <div className="grid grid-cols-2">
