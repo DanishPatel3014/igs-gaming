@@ -497,8 +497,8 @@ ul.s-link {
 .about-sec
 {
   background-color: #000000;
-  z-index: 2;
-  position: relative;
+  /* z-index: 2; */
+  /* position: relative; */
 }
 
 
@@ -1103,3 +1103,45 @@ ul.tlist>li>a {
 
 
 
+/* ====contact========= */
+.ct-bx label {
+  color: #fff;
+  display: block;
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.ct-bx input {
+  color: #fff;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  padding: 10px 12px;
+  width: 100%;
+  border-radius: 0;
+}
+.ct-bx input:focus-visible {
+  outline: 0;
+}
+.ct-bx {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 17px;
+  margin-bottom: 80px;
+}
+.ct-btn button {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 9px;
+}
+
+span.arw {
+  display: inline-block;
+  padding-left: 16px;
+  vertical-align: middle;
+  font-size: 20px;
+  color: #b8e132;
+}

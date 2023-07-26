@@ -6,6 +6,7 @@ import Footer from "@/components/footer/Footer";
 import Teambanner from "@/components/innerbanner/Teambanner";
 import Ourteam from "@/components/team/Ourteam";
 import Contactbanner from "@/components/innerbanner/Contactbanner";
+import Contact from "@/components/contact/Contact";
 
 export default function contactpage() {
     const { scroll } = useContext(SmoothScrollContext);
@@ -23,7 +24,7 @@ export default function contactpage() {
       <SmoothScrollProvider options={{ smooth: true }}>
          <Header />
     <Contactbanner/>
-     <Ourteam/>
+    <Contact/>
      <Footer/>
       </SmoothScrollProvider>
     );

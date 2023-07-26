@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="header px-9 py-5" data-scroll-section>
+      <div className="header px-9 py-5" >
         <div className="  mx-auto">
           <div className="grid grid-cols-2">
             <div className="logo-wrap">
@@ -52,21 +52,21 @@ export default function Header() {
             </div>
             <div class="page14-inner">
               <h1>Work</h1>
-              <Link href={"/services"}>
+              <Link href={"/work"}>
                 <BsArrowUpRight />
               </Link>
               <div class="center14"></div>
             </div>
             <div class="page14-inner">
               <h1>Team</h1>
-              <Link href={"/services"}>
+              <Link href={"/team"}>
                 <BsArrowUpRight />
               </Link>
               <div class="center14"></div>
             </div>
             <div class="page14-inner">
               <h1>Contact</h1>
-              <Link href={"/services"}>
+              <Link href={"/contact"}>
                 <BsArrowUpRight />
               </Link>
               <div class="center14"></div>
