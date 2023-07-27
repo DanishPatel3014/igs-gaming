@@ -21,8 +21,8 @@ export default function About() {
             <div className="grid grid-cols-2  items-center">
               <div className="btn-wrap ">
                 <ul className="btn-list">
-                  <li><Link href={''}>what we do<BsArrowUpRight /></Link></li>
-                  <li><Link href={''}>meet us<BsArrowUpRight /></Link></li>
+                  <li><Link href={'/services'}>what we do<BsArrowUpRight /></Link></li>
+                  <li><Link href={'/team'}>meet us<BsArrowUpRight /></Link></li>
                 </ul>
               </div>
              <div className="miswrp">

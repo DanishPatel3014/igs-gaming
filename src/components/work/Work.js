@@ -1,9 +1,16 @@
 import Image from "next/image";
 import React from "react";
-import device from "../../assets/images/device.png";
-import skull from "../../assets/images/skull.png";
+// import device from "../../assets/images/device.png";
+// import skull from "../../assets/images/skull.png";
+import glass from "../../assets/images/icon/glass.png";
+import handheld from "../../assets/images/icon/handheld.png";
+// import notepad from "../../assets/images/icon/notepad.png";
+import laptop from "../../assets/images/icon/laptop.png";
+// import reaper  from "../../assets/images/icon/reaper.png";
+import headache from "../../assets/images/icon/headache.png";
+
 import cup from "../../assets/images/cup.png";
-import glass from "../../assets/images/glass.png";
+
 import boy from "../../assets/images/boy.jpg";
 
 
@@ -20,7 +27,7 @@ export default function Work() {
             >
               Our Projects
               <span>
-                <Image src={device} />
+                <Image src={handheld} />
               </span>
             </h1>
             <h1
@@ -29,7 +36,7 @@ export default function Work() {
               data-scroll-speed="2"
             >
               <span>
-                <Image src={skull} />
+                <Image src={laptop} />
               </span>
               Are Unique,
             </h1>
@@ -39,7 +46,7 @@ export default function Work() {
              data-scroll-speed="-2"
             >LIKE EACH OF
             <span>
-                <Image src={cup} />
+                <Image src={glass} />
               </span>
             </h1>
             <h1
@@ -47,7 +54,7 @@ export default function Work() {
                   data-scroll-direction="horizontal"
                   data-scroll-speed="2">
             <span>         
-                <Image src={glass} />
+                <Image src={headache} />
               </span>
               Our Clients.</h1>
           </div>

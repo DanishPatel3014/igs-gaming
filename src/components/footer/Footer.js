@@ -22,21 +22,21 @@ export default function Footer() {
         <div className="ft-slink mb-28">
           <div class="page14-inner">
             <h1>Facebook</h1>
-            <Link href={"./"}>
+            <Link target="_blank" href={"https://www.facebook.com/InnovativeGameStudio"}>
               <BsArrowUpRight />
             </Link>
             <div class="center14"></div>
           </div>
           <div class="page14-inner">
             <h1>LinkedIn</h1>
-            <Link href={"/about"}>
+            <Link target="_blank" href={"https://www.linkedin.com/company/innovative-game-studio/"}>
               <BsArrowUpRight />
             </Link>
             <div class="center14"></div>
           </div>
           <div class="page14-inner">
             <h1>Instagram</h1>
-            <Link href={"/services"}>
+            <Link target="_blank" href={"https://www.instagram.com/innovativegame.studio/"}>
               <BsArrowUpRight />
             </Link>
             <div class="center14"></div>
@@ -53,7 +53,7 @@ export default function Footer() {
               </p>
             </div>
             <div className="let-warp btn-a">
-              <Link href={""}>
+              <Link href={"/contact"}>
                 Let’s Talk
                 <BsArrowUpRight />
               </Link>
@@ -159,7 +159,7 @@ export default function Footer() {
               <div className="logo drop-shadow-2xl">igs</div>
             </div>
             <div className="inpl p1">
-                <p>Copyright © 2023 <Image src={inpl} /> All rights reserved.</p>
+                <p>Copyright © 2023 <Link href={'https://innovative-net.com/'} target="_blank"><Image src={inpl} /></Link> All rights reserved.</p>
             </div>
         </div>
         </div>

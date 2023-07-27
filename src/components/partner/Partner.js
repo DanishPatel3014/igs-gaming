@@ -2,11 +2,16 @@ import React from "react";
 import device from "../../assets/images/device.png";
 import skull from "../../assets/images/skull.png";
 import cup from "../../assets/images/cup.png";
-import p1 from "../../assets/images/partner/p1.png";
-import p2 from "../../assets/images/partner/p2.png";
-import p3 from "../../assets/images/partner/p3.png";
-import p4 from "../../assets/images/partner/p4.png";
-import p5 from "../../assets/images/partner/p5.png";
+import p1 from "../../assets/images/logos/p1.png";
+import p2 from "../../assets/images/logos/p2.png";
+import p3 from "../../assets/images/logos/p3.png";
+import p4 from "../../assets/images/logos/p4.png";
+import p5 from "../../assets/images/logos/p5.png";
+import p6 from "../../assets/images/logos/p6.png";
+import p7 from "../../assets/images/logos/p7.png";
+import p8 from "../../assets/images/logos/p8.png";
+import p9 from "../../assets/images/logos/p9.png";
+import p10 from "../../assets/images/logos/p10.png";
 import Image from "next/image";
 
 export default function Partner() {
@@ -64,22 +69,22 @@ export default function Partner() {
               <Image src={p5} />
             </div>
             <div className="part-logo">
-              <Image src={p3} />
+              <Image src={p6} />
             </div>
             <div className="part-circle">
              
             </div>
             <div className="part-logo">
-              <Image src={p1} />
+              <Image src={p7} />
             </div>
             <div className="part-logo">
-              <Image src={p2} />
+              <Image src={p8} />
             </div>
             <div className="part-logo">
-              <Image src={p3} />
+              <Image src={p9} />
             </div>
             <div className="part-logo">
-              <Image src={p4} />
+              <Image src={p10} />
             </div>
           </div>
         </div>
