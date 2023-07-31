@@ -1,7 +1,7 @@
 import React from "react";
-import device from "../../assets/images/device.png";
-import skull from "../../assets/images/skull.png";
-import cup from "../../assets/images/cup.png";
+import headache from "src/assets/images/icon/headache.png";
+import hat from "src/assets/images/icon/hat.png";
+import cuup from "src/assets/images/icon/cup.png";
 import p1 from "../../assets/images/logos/p1.png";
 import p2 from "../../assets/images/logos/p2.png";
 import p3 from "../../assets/images/logos/p3.png";
@@ -27,7 +27,7 @@ export default function Partner() {
             >
               Our clientele
               <span>
-                <Image src={device} />
+                <Image src={headache} />
               </span>
             </h1>
             <h1
@@ -36,7 +36,7 @@ export default function Partner() {
               data-scroll-speed="2"
             >
               <span>
-                <Image src={skull} />
+                <Image src={cuup} />
               </span>
               spans across
             </h1>
@@ -47,7 +47,7 @@ export default function Partner() {
             >
               different industries
               <span>
-                <Image src={cup} />
+                <Image src={hat} />
               </span>
             </h1>
           </div>

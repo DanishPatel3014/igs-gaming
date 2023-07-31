@@ -133,7 +133,7 @@ export default function Infovideo() {
           muted
           controls={false}
         >
-          <source src="./images/igs.mp4" />
+          <source src="./images/igs.m4v" />
         </video>
         <div className="btmvid"></div>
         <div className="btmctnwrp">
