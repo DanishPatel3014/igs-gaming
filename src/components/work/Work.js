@@ -1,17 +1,16 @@
+"use client";
 import Image from "next/image";
 import React from "react";
-// import device from "../../assets/images/device.png";
-// import skull from "../../assets/images/skull.png";
-import glass from "../../assets/images/icon/glass.png";
-import handheld from "../../assets/images/icon/handheld.png";
-// import notepad from "../../assets/images/icon/notepad.png";
-import laptop from "../../assets/images/icon/laptop.png";
-// import reaper  from "../../assets/images/icon/reaper.png";
-import headache from "../../assets/images/icon/headache.png";
-
-import cup from "../../assets/images/cup.png";
-
-import boy from "../../assets/images/boy.jpg";
+// import device from "src/assets/images/device.png";
+// import skull from "src/assets/images/skull.png";
+// import reaper  from "src/assets/images/icon/reaper.png";
+// import notepad from "src/assets/images/icon/notepad.png";
+// import cup from "src/assets/images/cup.png";
+import glass from "@/assets/images/icon/glass.png";
+// import handheld from "/images/icon/handheld.png";
+import laptop from "src/assets/images/icon/laptop.png";
+import headache from "src/assets/images/icon/headache.png";
+import boy from "src/assets/images/boy.jpg";
 
 
 export default function Work() {
@@ -27,7 +26,7 @@ export default function Work() {
             >
               Our Projects
               <span>
-                <Image src={handheld} />
+                <Image width={120}  height={120}  src={'/handheld.png'} />
               </span>
             </h1>
             <h1
@@ -46,7 +45,7 @@ export default function Work() {
              data-scroll-speed="-2"
             >LIKE EACH OF
             <span>
-                <Image src={glass} />
+                <Image width={120}  height={120} src={'/images/icon/glass.png'} />
               </span>
             </h1>
             <h1
