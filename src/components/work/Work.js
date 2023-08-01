@@ -62,102 +62,102 @@ export default function Work() {
         <div class="tiles__wrap">
 					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
           <div class="tiles__line-img" >
-              <Image src={boy} />
+              <Image src={'/work/p1.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p2.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p3.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p4.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p5.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p6.jpg'} width={700}  height={600} />
             </div>
 					</div>
 					<div class="tiles__line" data-scroll data-scroll-speed="-1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
           <div class="tiles__line-img" >
-              <Image src={boy} />
+          <Image src={'/work/p7.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p8.jpg'} width={700}  height={600} />
             </div>
             <div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p9.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p10.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p11.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p12.jpg'} width={700}  height={600} />
             </div>
 					</div>
 					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
           <div class="tiles__line-img" >
-              <Image src={boy} />
+          <Image src={'/work/p13.jpg'} width={700}  height={600} />
             </div>
             <div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p14.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p15.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p16.jpg'} width={700}  height={600} />
             </div>
             <div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p17.jpg'} width={700}  height={600} />
             </div>
             <div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p18.jpg'} width={700}  height={600} />
             </div>
 					</div>
 					<div class="tiles__line" data-scroll data-scroll-speed="-1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
           <div class="tiles__line-img" >
-              <Image src={boy} />
+          <Image src={'/work/p19.jpg'} width={700}  height={600} />
             </div>
             <div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p3.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p4.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p5.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p6.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p1.jpg'} width={700}  height={600} />
             </div>
 					</div>
 					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
           <div class="tiles__line-img" >
-              <Image src={boy} />
-            </div>
-						<div class="tiles__line-img" >
-              <Image src={boy} />
-            </div>
-						<div class="tiles__line-img" >
-              <Image src={boy} />
-            </div>
-						<div class="tiles__line-img" >
-              <Image src={boy} />
+          <Image src={'/work/p19.jpg'} width={700}  height={600} />
             </div>
             <div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p3.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-              <Image src={boy} />
+            <Image src={'/work/p4.jpg'} width={700}  height={600} />
+            </div>
+						<div class="tiles__line-img" >
+            <Image src={'/work/p5.jpg'} width={700}  height={600} />
+            </div>
+						<div class="tiles__line-img" >
+            <Image src={'/work/p6.jpg'} width={700}  height={600} />
+            </div>
+						<div class="tiles__line-img" >
+            <Image src={'/work/p1.jpg'} width={700}  height={600} />
             </div>
 					</div>
 				</div>
