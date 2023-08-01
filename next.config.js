@@ -4,7 +4,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  reactStrictMode: true,
+  // reactStrictMode: true,
   images: {
     unoptimized: true
   },

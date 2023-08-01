@@ -612,7 +612,7 @@ ul.btn-list a svg {
 }
 .w-h span img
 {
-  width: 120px;
+  /* width: 120px; */
   margin: auto;
   position: absolute;
   bottom: 23px;

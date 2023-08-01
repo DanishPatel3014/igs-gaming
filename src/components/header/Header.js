@@ -29,47 +29,47 @@ export default function Header() {
         <div className={isMenuOpen ? "greenCircle menuOpen" : "greenCircle"}></div>
         <div className={isMenuOpen ? "blackCircle menuOpen" : "blackCircle"}>
           <div className="ft-slink mb-28">
-            <div class="page14-inner">
+            <div className="page14-inner">
               <h1>Home</h1>
               <Link href={"./"}>
                 <BsArrowUpRight />
               </Link>
-              <div class="center14"></div>
+              <div className="center14"></div>
             </div>
-            <div class="page14-inner">
+            <div className="page14-inner">
               <h1>About Us</h1>
               <Link href={"/about"}>
                 <BsArrowUpRight />
               </Link>
-              <div class="center14"></div>
+              <div className="center14"></div>
             </div>
-            <div class="page14-inner">
+            <div className="page14-inner">
               <h1>Services</h1>
               <Link href={"/services"}>
                 <BsArrowUpRight />
               </Link>
-              <div class="center14"></div>
+              <div className="center14"></div>
             </div>
-            <div class="page14-inner">
+            <div className="page14-inner">
               <h1>Work</h1>
               <Link href={"/work"}>
                 <BsArrowUpRight />
               </Link>
-              <div class="center14"></div>
+              <div className="center14"></div>
             </div>
-            <div class="page14-inner">
+            <div className="page14-inner">
               <h1>Team</h1>
               <Link href={"/team"}>
                 <BsArrowUpRight />
               </Link>
-              <div class="center14"></div>
+              <div className="center14"></div>
             </div>
-            <div class="page14-inner">
+            <div className="page14-inner">
               <h1>Contact</h1>
               <Link href={"/contact"}>
                 <BsArrowUpRight />
               </Link>
-              <div class="center14"></div>
+              <div className="center14"></div>
             </div>
           </div>
         </div>
