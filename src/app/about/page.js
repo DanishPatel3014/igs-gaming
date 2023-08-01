@@ -24,13 +24,13 @@ export default function AboutPage() {
   };
   return (
     <SmoothScrollProvider options={{ smooth: true }}>
-       <Header />
-   <Aboutbanner/>
-   <About />
-   <Gamecross/>
-   <Infovideo/>
-   <Partner/>
-   <Footer/>
+      <Header />
+      <Aboutbanner />
+      <About />
+      <Gamecross />
+      <Infovideo />
+      <Partner />
+      <Footer />
     </SmoothScrollProvider>
   );
 }

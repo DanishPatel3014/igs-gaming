@@ -35,12 +35,12 @@ export default function Home() {
       <Mainbanner />
 
       <About />
-        <Work />
-       <Infovideo/>
-        <Services />
-        <Partner/>
-        <Footer/>
-      
+      <Work />
+      <Infovideo />
+      <Services />
+      <Partner />
+      <Footer />
+
     </SmoothScrollProvider>
   );
 }
