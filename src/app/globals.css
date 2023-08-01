@@ -1205,3 +1205,20 @@ span.arw {
   font-size: 20px;
   color: #b8e132;
 }
+
+@media (max-width: 1440px) {
+  .partnerSec>div{width: 100%;padding: 20px;}
+  .w-h h1{font-size:58px;}
+  .w-h span img{width: 80px;}
+  .srbox-h>h5{font-size:82px;}
+  .srbox-h>h4{font-size:14px;}
+  .divider{width: auto;}
+  .m-h.h-wrp > div > h1{font-size:52px;}
+  .m-h.h-wrp > div > h2{font-size:42px;}
+  .gc-wrap.grid.grid-cols-2.s-h.p1>h2{font-size:30px;}
+  ul.slist.mb-20>li>div>h1{font-size:41px;}
+  .s-h>h2{font-size:38px;}
+  .tctn.s-h>h4{font-size:17px;}
+  .tctn.s-h>h3{font-size:14px;}
+
+}
