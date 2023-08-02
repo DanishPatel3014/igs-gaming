@@ -18,7 +18,7 @@ export default function About() {
               <h2><span>*</span> never Half <span>*</span></h2>
               <h1>Into The World That Solve, Achieve, & Inspire.</h1>
             </div>
-            <div className="grid grid-cols-2  items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center">
               <div className="btn-wrap ">
                 <ul className="btn-list">
                   <li><Link href={'/services'}>what we do<BsArrowUpRight /></Link></li>

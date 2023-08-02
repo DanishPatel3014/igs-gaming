@@ -51,7 +51,7 @@ export default function Partner() {
               </span>
             </h1>
           </div>
-          <div className="grid grid-cols-4  gap-9 items-center partnerSec">
+          <div className="grid grid-cols-2 md:grid-cols-4  gap-9 items-center partnerSec">
             <div className="part-logo">
               <Image src={p1} />
             </div>

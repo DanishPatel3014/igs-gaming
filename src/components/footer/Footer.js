@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footerwarp px-24">
-          <div className="grid grid-cols-2  items-center mb-28">
+          <div className="grid grid-cols-1 md:grid-cols-2  items-center mb-28">
             <div className="get-wrp p1">
              
               <p>
@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="ft-location mb-16">
-        <div className="grid grid-cols-4 gap-9 ">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-9 ">
             <div className="loc-box s-h p1">
                 <h4>Pakistan <span>HQ</span></h4>
                 <div class="divider"></div>
@@ -154,7 +154,7 @@ export default function Footer() {
             </div>
         </div>
         </div>
-        <div className="copy py-9 px-14 grid grid-cols-2  items-center ">
+        <div className="copy py-9 px-14 grid grid-cols-1 md:grid-cols-2  items-center ">
         <div className="logo-wrap">
               <div className="logo drop-shadow-2xl">igs</div>
             </div>

@@ -33,14 +33,12 @@ export default function Home() {
     <SmoothScrollProvider options={{ smooth: true }}   >
       <Header />
       <Mainbanner />
-
       <About />
       <Work />
       <Infovideo />
       <Services />
       <Partner />
       <Footer />
-
     </SmoothScrollProvider>
   );
 }
