@@ -31,7 +31,7 @@ export default function Servicesdetails() {
               </h2>
             </div>
           </div>
-          <div className="grid grid-cols-2 mb-32 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 mb-32 gap-8">
             <div className="srd-box px-8 pb-12 pt-24 s-h p1">
               <div className="bor-h">
                 <h5>01</h5>
@@ -81,7 +81,7 @@ export default function Servicesdetails() {
           </div>
           
 
-          <div className="grid grid-cols-2 mb-32 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 mb-32 gap-8">
             <div className="srd-box px-8 pb-12s pt-24 s-h p1">
               <div className="bor-h">
                 <h5>03</h5>
@@ -116,7 +116,7 @@ export default function Servicesdetails() {
 
           
 
-          <div className="grid grid-cols-2 mb-32 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 mb-32 gap-8">
             <div className="srd-box px-8 pb-12 pt-24 s-h p1">
               <div className="bor-h">
                 <h5>05</h5>
@@ -149,7 +149,7 @@ export default function Servicesdetails() {
           </div>
 
         
-          <div className="grid grid-cols-2 mb-32 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 mb-32 gap-8">
             <div className="srd-box px-8 pb-12 pt-24 s-h p1">
               <div className="bor-h">
                 <h5>07</h5>
@@ -181,7 +181,7 @@ export default function Servicesdetails() {
             </div>
           </div>
          
-          <div className="grid grid-cols-1 mb-32">
+          <div className="grid grid-cols-1 md:grid-cols-2 mb-32">
             <div className="srd-box pl-12 pr-32 py-24 s-h p1">
               <div className="bor-h">
                 <h5>09</h5>
