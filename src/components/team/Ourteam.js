@@ -92,7 +92,7 @@ export default function Ourteam() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-32">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-32">
             <div className="tl">
               <div className="twrap">
                 <div className="timg">
@@ -114,7 +114,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={ahsan}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>ahsan iqbal</h4>
                   <h3>chief executive officer</h3>
@@ -148,7 +148,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={obid}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Obaid Ahmed Khan</h4>
                   <h3>Sr. Motion Graphic Artist</h3>
@@ -183,7 +183,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={muk}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Muhammad Mukarram</h4>
                   <h3>Game Developer</h3>
@@ -217,7 +217,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={khi}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Khizar Hayat</h4>
                   <h3> Jr. Concept Artist</h3>
@@ -252,7 +252,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={mid}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Midhat Nazim</h4>
                   <h3> Head of Content Marketing</h3>
@@ -287,7 +287,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={daniyal}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Daniyal Khatib</h4>
                   <h3>Head of Sales & Marketing</h3>
@@ -323,7 +323,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={ishaq}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Muhammad Ishaq Patni</h4>
                   <h3>Game Producer</h3>
@@ -358,7 +358,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={irfan}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Irfan Ahmed Shah</h4>
                   <h3>Graphics Designer</h3>
@@ -392,7 +392,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={ahraz}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Syed Ahraz Zaheen</h4>
                   <h3>Sr. Concept Artist</h3>
@@ -427,7 +427,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={danish}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Danish Patel</h4>
                   <h3>Lead ui ux Creative developer</h3>
@@ -462,7 +462,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={anusha}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>anush ather</h4>
                   <h3>Senior Content Writer</h3>
@@ -498,7 +498,7 @@ export default function Ourteam() {
                   </div>
                   <Image src={fatima}/>
                 </div>
-                <div className="tctnwp grid grid-cols-2 items-center">
+                <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Fatima Ali</h4>
                   <h3>Social Media Executive</h3>

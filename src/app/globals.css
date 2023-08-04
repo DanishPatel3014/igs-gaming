@@ -1220,6 +1220,15 @@ span.arw {
   .s-h>h2{font-size:38px;}
   .tctn.s-h>h4{font-size:17px;}
   .tctn.s-h>h3{font-size:14px;}
+  .abtRoundMain{right: 1%;}
+}
+
+@media screen and (max-width: 1024px) {
+  .m-h.h-wrp > div > h1{font-size:38px;}
+  .abtRoundMain{top:180px;}
+  ul.btn-list a{font-size: 16px;}
+  .w-h h1{font-size:36px;}
+  .partnerSec>div{padding:0;}
 
 }
 
@@ -1258,5 +1267,9 @@ span.arw {
   .copy{padding:15px;}
   .inpl.p1>p{font-size:14px;margin:20px 0;justify-content:center;}
   .copy>.logo-wrap>div{margin:0 auto;}
+  .srd-box{padding:7rem 1rem;}
+  .tctn.s-h>h3{margin:0 0 20px 0;}
+  .tspace2{height:40px;}
+  .tspace{height:0px;}
 
 }
