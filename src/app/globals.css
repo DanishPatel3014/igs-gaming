@@ -4,7 +4,7 @@
 
 body {
   /* height: 100vh; */
-  /* overflow: hidden; */
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   font-family: "Orbitron", sans-serif !important;
@@ -1233,8 +1233,11 @@ span.arw {
 }
 
 @media screen and (max-width: 767px){
+  .has-scroll-smooth body {
+    overflow: inherit;
+  }
   .px-9{padding-left:1rem;padding-right:1rem;}
-  .loop-wrap{height: auto;}
+  .loop-wrap{height: auto;overflow: hidden;}
   .loop h1{font-size: 0.5em;}
   .m-h.h-wrp > div > h1{font-size:22px;}
   .m-h.h-wrp > div > h2{font-size:34px;padding: 20px 0;}
