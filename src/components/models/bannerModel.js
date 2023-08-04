@@ -1,13 +1,13 @@
 "use client";
-import { useEffect, React, useRef } from "react";
+import { useEffect, React, useRef, lazy } from "react";
 import { useAnimations, useGLTF } from "@react-three/drei";
 import { useControls } from "leva";
 
 export default function BannerModel() {
 
  
-
-  const soldiers = useGLTF("../../model/Man/gLTF/Man.gltf");
+  // useGLTF("/Man/gLTF/Man.gltf");
+  const soldiers = useGLTF("/Man/man.glb");
   const animations = useAnimations(soldiers.animations, soldiers.scene);
   useEffect(() => {
     const action = animations.actions.Walk;
@@ -28,4 +28,4 @@ export default function BannerModel() {
   );
 }
 
-useGLTF.preload("../../model/Man/gLTF/Man.gltf");
+useGLTF.preload("/Man/man.glb");

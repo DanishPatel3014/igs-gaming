@@ -1,3 +1,4 @@
+"use client";
 import React, { useRef, useState } from "react";
 import Banner from "./Banner";
 import Link from "next/link";
@@ -43,7 +44,7 @@ export default function Mainbanner() {
             </div>
           </div>
 
-          {/* <Banner /> */}
+          <Banner />
 
           <div className="ban-btm  px-9 py-5">
             <div className="grid grid-cols-2">
