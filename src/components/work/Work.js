@@ -125,13 +125,13 @@ export default function Work() {
           <Image src={'/work/p19.jpg'} width={700}  height={600} />
             </div>
             <div class="tiles__line-img" >
-            <Image src={'/work/p3.jpg'} width={700}  height={600} />
+            <Image src={'/work/p20.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-            <Image src={'/work/p4.jpg'} width={700}  height={600} />
+            <Image src={'/work/p21.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-            <Image src={'/work/p5.jpg'} width={700}  height={600} />
+            <Image src={'/work/p21.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
             <Image src={'/work/p6.jpg'} width={700}  height={600} />
@@ -145,13 +145,13 @@ export default function Work() {
           <Image src={'/work/p19.jpg'} width={700}  height={600} />
             </div>
             <div class="tiles__line-img" >
-            <Image src={'/work/p3.jpg'} width={700}  height={600} />
+            <Image src={'/work/p20.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-            <Image src={'/work/p4.jpg'} width={700}  height={600} />
+            <Image src={'/work/p21.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-            <Image src={'/work/p5.jpg'} width={700}  height={600} />
+            <Image src={'/work/p22.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
             <Image src={'/work/p6.jpg'} width={700}  height={600} />

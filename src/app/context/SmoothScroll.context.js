@@ -20,12 +20,12 @@ export const SmoothScrollProvider = ({ children, options }) => {
               smooth: true,
             
               smartphone: {
-                 smooth: true,
+                 smooth: false,
                  
                 
              },
              tablet: {
-                 smooth: true,
+                 smooth: false,
                  
              }
          

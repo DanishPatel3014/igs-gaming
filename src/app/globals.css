@@ -820,6 +820,14 @@ background-color: #b8e132;;
   margin: auto;
 }
 
+
+/* after */
+.loop h1 {
+  text-transform: uppercase;
+  padding: 0 30px;
+}
+
+
 /* footer */
 .footer-sec
 {
@@ -1233,6 +1241,10 @@ span.arw {
 }
 
 @media screen and (max-width: 767px){
+  .video-sec
+  {
+    display: none;
+  }
   .has-scroll-smooth body {
     overflow: inherit;
   }
@@ -1240,7 +1252,14 @@ span.arw {
   .loop-wrap{height: auto;overflow: hidden;}
   .loop h1{font-size: 0.5em;}
   .m-h.h-wrp > div > h1{font-size:22px;}
-  .m-h.h-wrp > div > h2{font-size:34px;padding: 20px 0;}
+  .m-h.h-wrp > div > h2 {
+    font-size: 21px;
+    padding: 9px 0;
+}
+.fot-line {
+
+  overflow: hidden;
+}
   section.about-sec.py-36>div>div>div>h1:first-child{margin:90px 0 0 0;}
   .py-36{padding-top:1rem;padding-bottom:3rem;}
   .btn-wrap,.miswrp{padding:20px;}
@@ -1274,5 +1293,13 @@ span.arw {
   .tctn.s-h>h3{margin:0 0 20px 0;}
   .tspace2{height:40px;}
   .tspace{height:0px;}
-
+  .tiles__line-img img {
+    width: 222px;
+}
+.tiles__wrap {
+ 
+  right: 32%;
+  bottom: 0;
+ 
+}
 }

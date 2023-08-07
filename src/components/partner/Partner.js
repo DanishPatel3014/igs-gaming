@@ -25,9 +25,9 @@ export default function Partner() {
               data-scroll-direction="horizontal"
               data-scroll-speed="-2"
             >
-              Our clientele
+              Our Experience
               <span>
-                <Image src={headache} />
+                <Image src={hat} />
               </span>
             </h1>
             <h1
@@ -38,16 +38,16 @@ export default function Partner() {
               <span>
                 <Image src={cuup} />
               </span>
-              spans across
+              can be evaluated
             </h1>
             <h1
               data-scroll
               data-scroll-direction="horizontal"
               data-scroll-speed="-2"
             >
-              different industries
+              by our Clients
               <span>
-                <Image src={hat} />
+                <Image src={headache} />
               </span>
             </h1>
           </div>

@@ -13,10 +13,10 @@ export default function About() {
           <div className="m-h h-wrp">
             <div className="h-wrp mb-28">
               <h1>
-                We Bring Whole-assed gaming<br />Creative Solutions
+              We're All About Epic Gaming<br /> Vibes It's All We Live For
               </h1>
-              <h2><span>*</span> never Half <span>*</span></h2>
-              <h1>Into The World That Solve, Achieve, & Inspire.</h1>
+              <h2><span>*</span> Serving Adventures  <span>*</span></h2>
+              <h1>That Rock Your Socks Off!</h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
               <div className="btn-wrap ">
@@ -28,7 +28,7 @@ export default function About() {
              <div className="miswrp">
              <div className="p1  s-h">
                 <h4>OUR MISSION</h4>
-                <p>IBy launching chances for internal and external stakeholders, we will never cease yearning to the future beyond and becoming a lighthouse for future generations in the technological premise with originality, distinction, industry astuteness, research advancement, and incredibility in development.</p>
+                <p>Our mission is relentless. At IGS, we yearn for uncharted waters and go beyond creating mere games. We're all about crafting heart-pounding experiences that pump up the adrenaline, ignite joy, and leave players thrilled beyond measure. Just like old times but better than ever!</p>
               </div>
             
              </div>

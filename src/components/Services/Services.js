@@ -18,18 +18,18 @@ export default function Services() {
               <li>
                 <div className="m-h col-span-2">
                   <h1>
-                    discover the world
+                  Let’s Create Your Next
                     <br />
-                    based your loves
+                     Gaming Masterpiece 
                   </h1>
                 </div>
               </li>
             </ul>
             <div className="s-h ">
               <h2>
-                highest level of satisfaction for
+              Fueling Games with Passion, 
                 <br />
-                our customers and their users.
+                Innovation, & Cutting-Edge Tech.
               </h2>
             </div>
           </div>

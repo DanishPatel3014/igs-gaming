@@ -21,25 +21,13 @@ export default function Mainbanner() {
             >
              
              <h1>
-                CYBER FICTION IS THE REAL 
-                <span>STORY</span>IN THE 
-                <span>
-                  METAVERSE.
-                </span>
+             We <span>are</span> converting <span>imagination</span> and <span>ideas</span> into <span>reality</span>
               </h1>
               <h1>
-                CYBER FICTION IS THE REAL 
-                <span>STORY</span>IN THE 
-                <span>
-                  METAVERSE.
-                </span>
+              We <span>are</span> converting <span>imagination</span> and <span>ideas</span> into <span>reality</span>
               </h1>
               <h1>
-                CYBER FICTION IS THE REAL 
-                <span>STORY</span>IN THE 
-                <span>
-                  METAVERSE.
-                </span>
+              We <span>are</span> converting <span>imagination</span> and <span>ideas</span> into <span>reality</span>
               </h1>
             </div>
           </div>
