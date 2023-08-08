@@ -61,14 +61,14 @@ export default function Mainbanner() {
                         <GiSoundOff />
                       </button>
                   }
-                  {/* <Link href={''}><AiOutlineSound/></Link> */}
+                 
                 </div>
               </div>
               <div className="link-wrp">
                 <ul className="s-link">
-                  <li><Link href={''} ><BiLogoFacebook /></Link></li>
-                  <li><Link href={''}><BiLogoInstagram /></Link></li>
-                  <li><Link href={''}><BiLogoLinkedin /></Link></li>
+                  <li><Link target="_blank" href={'https://www.facebook.com/InnovativeGameStudio'} ><BiLogoFacebook /></Link></li>
+                  <li><Link target="_blank" href={'https://www.instagram.com/innovativegame.studio/'}><BiLogoInstagram /></Link></li>
+                  <li><Link target="_blank" href={'https://www.linkedin.com/company/innovative-game-studio/'}><BiLogoLinkedin /></Link></li>
                 </ul>
               </div>
             </div>

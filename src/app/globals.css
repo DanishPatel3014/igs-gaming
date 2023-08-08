@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
-  /* height: 100vh; */
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -832,7 +836,7 @@ background-color: #b8e132;;
 .footer-sec
 {
   background-color: #1a1a1a;
-
+min-height: 1800px;
 }
 .fot-line {
   display: flex;

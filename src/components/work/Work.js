@@ -1,16 +1,9 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-// import device from "src/assets/images/device.png";
-// import skull from "src/assets/images/skull.png";
-// import reaper  from "src/assets/images/icon/reaper.png";
-// import notepad from "src/assets/images/icon/notepad.png";
-// import cup from "src/assets/images/cup.png";
-import glass from "@/assets/images/icon/glass.png";
-// import handheld from "/images/icon/handheld.png";
 import laptop from "src/assets/images/icon/laptop.png";
 import headache from "src/assets/images/icon/headache.png";
-import boy from "src/assets/images/boy.jpg";
+
 
 
 export default function Work() {
@@ -131,7 +124,7 @@ export default function Work() {
             <Image src={'/work/p21.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
-            <Image src={'/work/p21.jpg'} width={700}  height={600} />
+            <Image src={'/work/p18.jpg'} width={700}  height={600} />
             </div>
 						<div class="tiles__line-img" >
             <Image src={'/work/p6.jpg'} width={700}  height={600} />

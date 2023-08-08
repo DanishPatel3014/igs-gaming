@@ -1,43 +1,4 @@
 import React from "react";
-import team from "../../assets/images/team/team.jpg";
-import ahsan from "../../assets/images/team/ahsan.png";
-import crown from "../../assets/images/team/crown.png";
-import money from "../../assets/images/team/money.png";
-import cal from "../../assets/images/team/cal.png";
-import ishaq from "../../assets/images/team/ishaq.png";
-import vr from "../../assets/images/team/vr.png";
-import game from "../../assets/images/team/game.png";
-import movie from "../../assets/images/team/movie.png";
-import obid from "../../assets/images/team/obid.png";
-import sleep from "../../assets/images/team/sleep.png";
-import bike from "../../assets/images/team/bike.png";
-import ani from "../../assets/images/team/ani.png";
-import irfan from "../../assets/images/team/irfan.png";
-import act from "../../assets/images/team/act.png";
-import mark from "../../assets/images/team/mark.png";
-import muk from "../../assets/images/team/muk.png";
-import ggame from "../../assets/images/team/ggame.png";
-import ahraz from "../../assets/images/team/ahraz.png";
-import paint from "../../assets/images/team/paint.png";
-import swi from "../../assets/images/team/swi.png";
-import khi from "../../assets/images/team/khi.png";
-import dance from "../../assets/images/team/dance.png";
-import danish from "../../assets/images/team/danish.png";
-import gym from "../../assets/images/team/gym.png";
-import boox from "../../assets/images/team/boox.png";
-import cyc from "../../assets/images/team/cyc.png";
-import mid from "../../assets/images/team/mid.png";
-import smile from "../../assets/images/team/smile.png";
-import travel from "../../assets/images/team/travel.png";
-import food from "../../assets/images/team/food.png";
-import anusha from "../../assets/images/team/anusha.png";
-import read from "../../assets/images/team/read.png";
-import coffee from "../../assets/images/team/coffee.png";
-import cookie from "../../assets/images/team/cookie.png";
-import fatima from "../../assets/images/team/fatima.png";
-import social from "../../assets/images/team/social.png";
-import hash from "../../assets/images/team/hash.png";
-import daniyal from "../../assets/images/team/daniyal.png";
 import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedinIn,FaDiscord,FaFacebookF,FaTwitter } from 'react-icons/fa';
@@ -61,18 +22,17 @@ export default function Ourteam() {
               <li>
                 <div className="m-h col-span-2">
                   <h1>
-                    discover the world
-                    <br />
-                    based your loves
+                  The Masterminds <br/>Behind Our Games
                   </h1>
                 </div>
               </li>
             </ul>
             <div className="s-h ">
               <h2>
-                highest level of satisfaction for
-                <br />
-                our customers and their users.
+              Meet our passionate team of 
+              <br/>
+gamers, creators, and dreamers 
+
               </h2>
             </div>
           </div>
@@ -86,7 +46,8 @@ export default function Ourteam() {
               <div class="o-image" data-scroll>
                 <Image
                   class="c-speed-block_image"
-                  src={team}
+                  src={'/team/team.jpg'}
+                  width={1920}  height={900}
                   alt="Locomotive image from unsplash"
                 />
               </div>
@@ -107,12 +68,11 @@ export default function Ourteam() {
                       
                     </div>
                     <div className="tlh tline2">
-                      <h4>ahsan iqbal<span><Image src={crown}/></span>ahsan iqbal<span><Image src={money}/></span>ahsan iqbal<span><Image src={cal}/></span></h4>
-                      <h4>ahsan iqbal<span><Image src={crown}/></span>ahsan iqbal<span><Image src={money}/></span>ahsan iqbal<span><Image src={cal}/></span></h4>
-                 
+                      <h4>ahsan iqbal<span><Image src={'/team/crown.png'} width={32} height={32} /></span>ahsan iqbal<span><Image src={'/team/money.png'} width={32} height={32}/></span>ahsan iqbal<span><Image src={'/team/cal.png'} width={32} height={32}/></span></h4>
+                      <h4>ahsan iqbal<span><Image src={'/team/crown.png'} width={32} height={32} /></span>ahsan iqbal<span><Image src={'/team/money.png'} width={32} height={32}/></span>ahsan iqbal<span><Image src={'/team/cal.png'} width={32} height={32}/></span></h4>
                     </div>
                   </div>
-                  <Image src={ahsan}/>
+                  <Image src={'/team/ahsan.png'} width={600} height={750} />
                 </div>
                 <div className="tctnwp grid grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -122,8 +82,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -142,11 +102,11 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Obaid Ahmed Khan<span><Image src={sleep}/></span>Obaid Ahmed Khan<span><Image src={bike}/></span>Obaid Ahmed Khan<span><Image src={ani}/></span></h4>
-                      <h4>Obaid Ahmed Khan<span><Image src={sleep}/></span>Obaid Ahmed Khan<span><Image src={bike}/></span>Obaid Ahmed Khan<span><Image src={ani}/></span></h4>
+                      <h4>Obaid Ahmed Khan<span><Image src={'/team/sleep.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image src={'/team/bike.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image src={'/team/ani.png'} width={32} height={32} /></span></h4>
+                      <h4>Obaid Ahmed Khan<span><Image src={'/team/sleep.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image src={'/team/bike.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image src={'/team/ani.png'} width={32} height={32} /></span></h4>
                     </div>
                   </div>
-                  <Image src={obid}/>
+                  <Image src={'/team/obid.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -156,8 +116,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -176,12 +136,11 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Muhammad Mukarram<span><Image src={ggame}/></span>Muhammad Mukarram<span><Image src={movie}/></span>Muhammad Mukarram<span><Image src={act}/></span></h4>
-                      <h4>Muhammad Mukarram<span><Image src={ggame}/></span>Muhammad Mukarram<span><Image src={movie}/></span>Muhammad Mukarram<span><Image src={act}/></span></h4>
-                      <h4>Muhammad Mukarram<span><Image src={ggame}/></span>Muhammad Mukarram<span><Image src={movie}/></span>Muhammad Mukarram<span><Image src={act}/></span></h4>
+                      <h4>Muhammad Mukarram<span><Image src={'/team/ggame.png'} width={32} height={32}/></span>Muhammad Mukarram<span><Image src={'/team/movie.png'} width={32} height={32} /></span>Muhammad Mukarram<span><Image src={'/team/act.png'} width={32} height={32} /></span></h4>
+                      <h4>Muhammad Mukarram<span><Image src={'/team/ggame.png'} width={32} height={32}/></span>Muhammad Mukarram<span><Image src={'/team/movie.png'} width={32} height={32} /></span>Muhammad Mukarram<span><Image src={'/team/act.png'} width={32} height={32} /></span></h4>
                     </div>
                   </div>
-                  <Image src={muk}/>
+                  <Image src={'/team/muk.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -191,8 +150,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -211,11 +170,11 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Khizar Hayat<span><Image src={dance}/></span>hizar Hayat<span><Image src={movie}/></span>hizar Hayat<span><Image src={paint}/></span></h4>
-                      <h4>Khizar Hayat<span><Image src={dance}/></span>hizar Hayat<span><Image src={movie}/></span>hizar Hayat<span><Image src={paint}/></span></h4>
+                      <h4>Khizar Hayat<span><Image src={'/team/dance.png'} width={32} height={32}/></span>hizar Hayat<span><Image src={'/team/movie.png'} width={32} height={32} /></span>hizar Hayat<span><Image src={'/team/paint.png'} width={32} height={32} /></span></h4>
+                      <h4>Khizar Hayat<span><Image src={'/team/dance.png'} width={32} height={32}/></span>hizar Hayat<span><Image src={'/team/movie.png'} width={32} height={32} /></span>hizar Hayat<span><Image src={'/team/paint.png'} width={32} height={32} /></span></h4>
                     </div>
                   </div>
-                  <Image src={khi}/>
+                  <Image src={'/team/khi.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -225,8 +184,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -246,11 +205,11 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Midhat Nazim<span><Image src={travel}/></span>Midhat Nazim<span><Image src={food}/></span>Midhat Nazim<span><Image src={smile}/></span></h4>
-                      <h4>Midhat Nazim<span><Image src={travel}/></span>Midhat Nazim<span><Image src={food}/></span>Midhat Nazim<span><Image src={smile}/></span></h4>
+                      <h4>Midhat Nazim<span><Image src={'/team/travel.png'} width={32} height={32}/></span>Midhat Nazim<span><Image src={'/team/food.png'} width={32} height={32} /></span>Midhat Nazim<span><Image src={'/team/smile.png'} width={32} height={32} /></span></h4>
+                      <h4>Midhat Nazim<span><Image src={'/team/travel.png'} width={32} height={32}/></span>Midhat Nazim<span><Image src={'/team/food.png'} width={32} height={32} /></span>Midhat Nazim<span><Image src={'/team/smile.png'} width={32} height={32} /></span></h4>
                     </div>
                   </div>
-                  <Image src={mid}/>
+                  <Image src={'/team/mid.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -260,8 +219,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -280,12 +239,11 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Daniyal Khatib<span><Image src={movie}/></span>Daniyal Khatib<span><Image src={act}/></span>Daniyal Khatib<span><Image src={food}/></span></h4>
-                      <h4>Daniyal Khatib<span><Image src={movie}/></span>Daniyal Khatib<span><Image src={act}/></span>Daniyal Khatib<span><Image src={food}/></span></h4>
-                    
+                      <h4>Daniyal Khatib<span><Image src={'/team/movie.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image src={'/team/act.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image src={'/team/food.png'} width={32} height={32}/></span></h4>
+                      <h4>Daniyal Khatib<span><Image src={'/team/movie.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image src={'/team/act.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image src={'/team/food.png'} width={32} height={32}/></span></h4>
                     </div>
                   </div>
-                  <Image src={daniyal}/>
+                  <Image src={'/team/daniyal.png'} width={600}  height={750} />
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -295,8 +253,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -317,11 +275,11 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Muhammad Ishaq Patni <span><Image src={vr}/></span>Muhammad Ishaq Patni <span><Image src={game}/></span>Muhammad Ishaq Patni <span><Image src={movie}/></span></h4>
-                      <h4>Muhammad Ishaq Patni <span><Image src={vr}/></span>Muhammad Ishaq Patni <span><Image src={game}/></span>Muhammad Ishaq Patni <span><Image src={movie}/></span></h4>
+                      <h4>Muhammad Ishaq Patni <span><Image src={'/team/vr.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image src={'/team/game.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image src={'/team/movie.png'} width={32} height={32}/></span></h4>
+                      <h4>Muhammad Ishaq Patni <span><Image src={'/team/vr.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image src={'/team/game.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image src={'/team/movie.png'} width={32} height={32}/></span></h4>
                     </div>
                   </div>
-                  <Image src={ishaq}/>
+                  <Image src={'/team/ishaq.png'} width={600} height={750} />
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -331,8 +289,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -351,12 +309,12 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Irfan Ahmed Shah<span><Image src={act}/></span>Irfan Ahmed Shah<span><Image src={mark}/></span>Irfan Ahmed Shah<span><Image src={vr}/></span></h4>
-                      <h4>Irfan Ahmed Shah<span><Image src={act}/></span>Irfan Ahmed Shah<span><Image src={mark}/></span>Irfan Ahmed Shah<span><Image src={vr}/></span></h4>
+                      <h4>Irfan Ahmed Shah<span><Image src={'/team/act.png'} width={32} height={32}/></span>Irfan Ahmed Shah<span><Image src={'/team/mark.png'} width={32} height={32} /></span>Irfan Ahmed Shah<span><Image src={'/team/vr.png'} width={32} height={32} /></span></h4>
+                      <h4>Irfan Ahmed Shah<span><Image src={'/team/act.png'} width={32} height={32}/></span>Irfan Ahmed Shah<span><Image src={'/team/mark.png'} width={32} height={32} /></span>Irfan Ahmed Shah<span><Image src={'/team/vr.png'} width={32} height={32} /></span></h4>
                 
                     </div>
                   </div>
-                  <Image src={irfan}/>
+                  <Image src={'/team/irfan.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -366,8 +324,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -386,12 +344,12 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Syed Ahraz Zaheen<span><Image src={paint}/></span>Syed Ahraz Zaheen<span><Image src={swi}/></span>Syed Ahraz Zaheen<span><Image src={game}/></span></h4>
-                      <h4>Syed Ahraz Zaheen<span><Image src={paint}/></span>Syed Ahraz Zaheen<span><Image src={swi}/></span>Syed Ahraz Zaheen<span><Image src={game}/></span></h4>
+                      <h4>Syed Ahraz Zaheen<span><Image src={'/team/paint.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image src={'/team/swi.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image src={'/team/game.png'} width={32} height={32}/></span></h4>
+                      <h4>Syed Ahraz Zaheen<span><Image src={'/team/paint.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image src={'/team/swi.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image src={'/team/game.png'} width={32} height={32}/></span></h4>
                     </div>
                   </div>
-                  <Image src={ahraz}/>
-                </div>
+                  <Image src={'/team/ahraz.png'} width={600} height={750}/>
+                </div> 
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Syed Ahraz Zaheen</h4>
@@ -400,8 +358,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -411,32 +369,32 @@ export default function Ourteam() {
                 <div className="timg">
                 <div className="tlinewarp s-h">
                     <div className="tlh tline1">
-                      <h4> Lead ui ux Creative developer </h4>
-                      <h4> Lead ui ux Creative developer </h4>
-                      <h4> Lead ui ux Creative developer </h4>
-                      <h4> Lead ui ux Creative developer </h4>
-                      <h4> Lead ui ux Creative developer </h4>
+                      <h4> Lead ui ux  developer </h4>
+                      <h4> Lead ui ux  developer </h4>
+                      <h4> Lead ui ux  developer </h4>
+                      <h4> Lead ui ux  developer </h4>
+                      <h4> Lead ui ux  developer </h4>
                     
 
                     </div>
                     <div className="tlh tline2">
-                    <h4>Danish Patel<span><Image src={gym}/></span>Danish Patel<span><Image src={boox}/></span>Danish Patel<span><Image src={cyc}/></span></h4>
-                    <h4>Danish Patel<span><Image src={gym}/></span>Danish Patel<span><Image src={boox}/></span>Danish Patel<span><Image src={cyc}/></span></h4>
+                    <h4>Danish Patel<span><Image src={'/team/gym.png'} width={32} height={32} /></span>Danish Patel<span><Image src={'/team/boox.png'} width={32} height={32} /></span>Danish Patel<span><Image src={'/team/cyc.png'} width={32} height={32}/></span></h4>
+                    <h4>Danish Patel<span><Image src={'/team/gym.png'} width={32} height={32} /></span>Danish Patel<span><Image src={'/team/boox.png'} width={32} height={32} /></span>Danish Patel<span><Image src={'/team/cyc.png'} width={32} height={32}/></span></h4>
                     
                     </div>
                   </div>
-                  <Image src={danish}/>
+                  <Image src={'/team/danish.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
                   <h4>Danish Patel</h4>
-                  <h3>Lead ui ux Creative developer</h3>
+                  <h3>Lead ui ux  developer</h3>
                   </div>
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -455,23 +413,23 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>anush ather<span><Image src={read}/></span>anush ather<span><Image src={cookie}/></span>anush ather<span><Image src={coffee}/></span></h4>
-                      <h4>anush ather<span><Image src={read}/></span>anush ather<span><Image src={cookie}/></span>anush ather<span><Image src={coffee}/></span></h4>
+                      <h4>anusha ather<span><Image src={'/team/read.png'} width={32} height={32}/></span>anusha ather<span><Image src={'/team/cookie.png'} width={32} height={32}/></span>anusha ather<span><Image src={'/team/coffee.png'} width={32} height={32}/></span></h4>
+                      <h4>anusha ather<span><Image src={'/team/read.png'} width={32} height={32}/></span>anusha ather<span><Image src={'/team/cookie.png'} width={32} height={32}/></span>anusha ather<span><Image src={'/team/coffee.png'} width={32} height={32}/></span></h4>
                     
                     </div>
                   </div>
-                  <Image src={anusha}/>
+                  <Image src={'/team/anusha.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
-                  <h4>anush ather</h4>
+                  <h4>anusha ather</h4>
                   <h3>Senior Content Writer</h3>
                   </div>
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>
@@ -490,13 +448,13 @@ export default function Ourteam() {
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Fatima Ali<span><Image src={hash}/></span>Fatima Ali<span><Image src={social}/></span>Fatima Ali<span><Image src={mark}/></span></h4>
-                      <h4>Fatima Ali<span><Image src={hash}/></span>Fatima Ali<span><Image src={social}/></span>Fatima Ali<span><Image src={mark}/></span></h4>
+                      <h4>Fatima Ali<span><Image src={'/team/hash.png'} width={32} height={32}/></span>Fatima Ali<span><Image src={'/team/social.png'} width={32} height={32}/></span>Fatima Ali<span><Image src={'/team/mark.png'} width={32} height={32}/></span></h4>
+                      <h4>Fatima Ali<span><Image src={'/team/hash.png'} width={32} height={32}/></span>Fatima Ali<span><Image src={'/team/social.png'} width={32} height={32}/></span>Fatima Ali<span><Image src={'/team/mark.png'} width={32} height={32}/></span></h4>
                      
                     
                     </div>
                   </div>
-                  <Image src={fatima}/>
+                  <Image src={'/team/fatima.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -506,8 +464,8 @@ export default function Ourteam() {
                   <div className="tctn s-h">
                 <ul className="tlist">
                   <li><Link href={''}><FaLinkedinIn/></Link></li>
-                  <li><Link href={''}><FaTwitter/></Link></li>
-                  <li><Link href={''}><FaFacebookF/></Link></li>
+                  
+                  
                 </ul>
                   </div>
                 </div>

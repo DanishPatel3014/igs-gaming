@@ -159,7 +159,7 @@ export default function Footer() {
               <div className="logo drop-shadow-2xl">igs</div>
             </div>
             <div className="inpl p1">
-                <p>Copyright © 2023 <Link href={'https://innovative-net.com/'} target="_blank"><Image src={inpl} /></Link> All rights reserved.</p>
+                <p>Copyright © 2023 <Link href={'https://innovative-net.com/'} target="_blank"><Image src={'/inpl.png'} width={574} height={387}  /></Link> All rights reserved.</p>
             </div>
         </div>
         </div>

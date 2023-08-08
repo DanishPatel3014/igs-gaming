@@ -1,11 +1,9 @@
 "use client";
 
 import { gsap } from "gsap";
-import Image from "next/image";
 import { useEffect, React, useState } from "react";
 import CountUp from 'react-countup';
 import ReactCurvedText from 'react-curved-text';
-import Logo from '../../assets/images/logo.png'
 
 function Preloader() {
 

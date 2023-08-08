@@ -5,6 +5,8 @@ export const SmoothScrollContext = createContext({
   scroll: null,
 })
 
+
+
 export const SmoothScrollProvider = ({ children, options }) => {
   const [scroll, setScroll] = useState(null)
 
@@ -18,18 +20,17 @@ export const SmoothScrollProvider = ({ children, options }) => {
             new LocomotiveScroll({
               el: document.querySelector('[data-scroll-container]'),
               smooth: true,
-            
+              resetNativeScroll: true,
+              reloadOnContextChange: true,
+              getDirection: true,
               smartphone: {
                  smooth: false,
                  
                 
              },
-             tablet: {
-                 smooth: false,
-                 
-             }
-         
+          
             })
+            
           )
         } catch (error) {
           throw Error(`[SmoothScrollProvider]: ${error}`)

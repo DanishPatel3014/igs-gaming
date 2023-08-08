@@ -2,16 +2,6 @@ import React from "react";
 import headache from "src/assets/images/icon/headache.png";
 import hat from "src/assets/images/icon/hat.png";
 import cuup from "src/assets/images/icon/cup.png";
-import p1 from "../../assets/images/logos/p1.png";
-import p2 from "../../assets/images/logos/p2.png";
-import p3 from "../../assets/images/logos/p3.png";
-import p4 from "../../assets/images/logos/p4.png";
-import p5 from "../../assets/images/logos/p5.png";
-import p6 from "../../assets/images/logos/p6.png";
-import p7 from "../../assets/images/logos/p7.png";
-import p8 from "../../assets/images/logos/p8.png";
-import p9 from "../../assets/images/logos/p9.png";
-import p10 from "../../assets/images/logos/p10.png";
 import Image from "next/image";
 
 export default function Partner() {
@@ -53,38 +43,38 @@ export default function Partner() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4  gap-9 items-center partnerSec">
             <div className="part-logo">
-              <Image src={p1} />
+              <Image src={'/logos/p1.png'} width={521} height={160} />
             </div>
             <div className="part-logo">
-              <Image src={p2} />
+              <Image src={'/logos/p2.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={p3} />
+              <Image src={'/logos/p3.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={p4} />
+              <Image src={'/logos/p4.png'}  width={521} height={160}/>
             </div>
             <div className="part-circle"></div>
             <div className="part-logo">
-              <Image src={p5} />
+              <Image src={'/logos/p5.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={p6} />
+              <Image src={'/logos/p6.png'}  width={521} height={160}/>
             </div>
             <div className="part-circle">
              
             </div>
             <div className="part-logo">
-              <Image src={p7} />
+              <Image src={'/logos/p7.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={p8} />
+              <Image src={'/logos/p8.png'} width={521} height={160} />
             </div>
             <div className="part-logo">
-              <Image src={p9} />
+              <Image src={'/logos/p9.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={p10} />
+              <Image src={'/logos/p10.png'} width={521} height={160} />
             </div>
           </div>
         </div>

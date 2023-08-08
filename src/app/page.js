@@ -20,15 +20,15 @@ export default function Home() {
 
   const { scroll } = useContext(SmoothScrollContext);
 
-  const goToSecondPart = (event) => {
-    event.preventDefault();
-    scroll && scroll.scrollTo("#second-part");
-  };
+  // const goToSecondPart = (event) => {
+  //   event.preventDefault();
+  //   scroll && scroll.scrollTo("#second-part");
+  // };
 
-  const goToTop = (event) => {
-    event.preventDefault();
-    scroll && scroll.scrollTo(0);
-  };
+  // const goToTop = (event) => {
+  //   event.preventDefault();
+  //   scroll && scroll.scrollTo(0);
+  // };
   return (
     <SmoothScrollProvider options={{ smooth: true }}   >
       <Header />
