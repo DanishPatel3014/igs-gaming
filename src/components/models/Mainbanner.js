@@ -10,6 +10,16 @@ export default function Mainbanner() {
   return (
     <>
        <section className="mainbanner" id="direction" >
+       <video
+          className="vide"
+          id="vide"
+          autoPlay={true}
+          loop={true}
+          muted
+          controls={false}
+        >
+          <source src="/images/banvideo.mp4" />
+        </video>
           <div className="loop-wrap " data-scroll-section>
             <div
               className="loop"

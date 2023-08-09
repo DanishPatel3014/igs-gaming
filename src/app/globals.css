@@ -5,6 +5,7 @@
 html, body {
   width: 100vw;
   height: 100vh;
+  cursor: none;
 }
 
 body {
@@ -25,11 +26,21 @@ body {
     padding-bottom: 7px;
     display: inline-flex;
     align-items: center;
+    transition: 0.4s ease-in-out;
+}
+.btn-a a:hover
+{
+  border-bottom: 1px solid #b8e132;
+}
+.btn-a a:hover svg
+{
+  transform: rotate(45deg);
 }
 .btn-a a svg {
   font-size: 16px;
   margin-left: 9px;
   color: #b8e132;
+  transition: 0.4s ease-in-out;
 }
 .p1 p
 {
@@ -390,13 +401,22 @@ font-weight: 400;
   background-size: cover;
   height: 100vh;
 }
+video#vide {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+}
 .loop-wrap {
   background-color: #b8e132e0;
   display: flex;
   position: absolute;
   top: 40%;
   height: 200px;
- 
+ overflow: hidden;
   width: 100%;
 }
 .loop
@@ -405,7 +425,7 @@ font-weight: 400;
   width: 100%;
   font-size: 100px;
   white-space: nowrap;
-  z-index: -1;
+  /* z-index: -1; */
    
 }
 .loop h1{
@@ -475,8 +495,14 @@ ul.s-link>li>a {
   justify-content: center;
   align-items: center;
   background-color: #b8e132;
+  border: 2px solid #b8e132;
+  transition: 0.4s ease-in-out;
 }
-
+ul.s-link>li>a:hover
+{
+  background-color: #b8e1324f;
+  color: #fff;
+}
 ul.s-link {
   display: flex;
   gap: 8px;
@@ -495,6 +521,12 @@ ul.s-link {
   justify-content: center;
   align-items: center;
   background-color: #b8e132;
+  border: 2px solid #b8e132;
+  transition: 0.4s ease-in-out;
+}
+.sound button:hover{
+  background-color: #b8e1324f;
+  color: #fff;
 }
 #shiledImage2{position: absolute;top: 150px;right: 20px;width: 120px;}
 /* About-Sec */
@@ -531,11 +563,19 @@ ul.btn-list a {
   padding-bottom: 7px;
   display: inline-flex;
   align-items: center;
+  transition: 0.4s ease-in-out;
+}
+ul.btn-list a:hover {
+  border-bottom: 1px solid #b8e132;
 }
 ul.btn-list a svg {
   font-size: 16px;
   margin-left: 9px;
   color: #b8e132;
+  transition: 0.4s ease-in-out;
+}
+ul.btn-list a:hover svg {
+  transform: rotate(45deg);
 }
 .abtRoundMain svg {
   color: #b8e132;
@@ -802,6 +842,7 @@ background-color: #b8e132;;
 .sr-box:hover .srbox-h a
 {
   border: 2px solid #b8e132;
+  transform: rotate(45deg);
 }
 /* partner-sec */
 .partner-sec
@@ -877,8 +918,12 @@ min-height: 1800px;
   font-size: 3vw;
     font-weight: 100;
     position: relative;
-   
+    transition: 0.4s ease-in-out;
     text-transform: uppercase;
+}
+.page14-inner:hover h1
+{
+  color: #000;
 }
 .page14-inner a {
   border: 2px solid #fff;
@@ -888,13 +933,20 @@ min-height: 1800px;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  transition: 0.4s ease-in-out;
+}
+.page14-inner:hover a
+{
+  color: #000;
+  border: 2px solid #000;
+  transform: rotate(45deg)
 }
 .center14{
-  height: 0%;
-  width: 100%;
+  height: 100%;
+  width: 0%;
   background-color: #b8e132;
   position: absolute;
-  left: 50%;
+  left: 0%;
   top: 50%;
   transform: translate(-50%,-50%);
   transition: all ease .5s;
@@ -903,7 +955,8 @@ min-height: 1800px;
 
 
 .page14-inner:hover .center14{
-  height: 100%;
+  width: 100%;
+  left: 50%;
 }
 .let-warp
 {
@@ -956,6 +1009,7 @@ background-color: #000000;
 /* ===========about-page========== */
 section.abt-banner {
   background-color: #1a1a1a;
+  overflow: hidden;
  
 }
 .abth {
@@ -1218,6 +1272,44 @@ span.arw {
   color: #b8e132;
 }
 
+
+
+/* ===after--set=== */
+
+.mob-h
+{
+  display: none;
+}
+
+
+
+
+.cursor {
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff52;
+  border:2px solid #fff;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.cursor__follower {
+  transition: transform .4s;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #000;
+  background-color: #b8e132;
+}
+
+
+
+
+
+/* ===Media-responsive */
+
 @media (max-width: 1440px) {
   .partnerSec>div{width: 100%;padding: 20px;}
   .w-h h1{font-size:58px;}
@@ -1245,6 +1337,135 @@ span.arw {
 }
 
 @media screen and (max-width: 767px){
+
+  video#vide
+  {
+    display: none;
+  }
+  .tiles__line.one {
+    animation-name: anim;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.tiles__line.two {
+  animation-name: animleft;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes animleft{
+  0%{
+      transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(0%);
+  }
+}
+
+  .p1 p {
+
+    line-height: 23px;
+    font-size: 13px;
+   
+}
+.blackCircle>div>div {
+  padding: 5.2vw 5vw;
+ 
+}
+
+.blackCircle>div>div a {
+  border-width: 2px;
+}
+.page14-inner a {
+  border: 1px solid #fff;
+ 
+  width: 40px;
+  height: 40px;
+}
+.blackCircle>div>div>h1 {
+  font-size: 3vw;
+}
+.ct-wrap {
+  padding: 0 20px;
+}
+.team-sec .s-h h2 {
+  font-size: 13px;
+}
+section.team-sec .gap-32 {
+  gap: 0;
+}
+.tlh h4
+{
+  margin: 0 !important;
+}
+.tl {
+  padding: 20px;
+}
+.tr {
+  padding: 20px;
+}
+section.servicedetial-sec .mb-32 {
+  margin-bottom: 40px;
+}
+section.servicedetial-sec .sr-wrap.mb-36 {
+  margin-bottom: 100px;
+}
+.bor-h {
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: fit-content;
+}
+.gc-wrap h2 {
+  margin-bottom: 15px;
+}
+  .desk-h
+  {
+    display: none;
+  }
+  .abth2 h1 {
+    font-size: 80px;
+    line-height: 46px;
+    -webkit-text-stroke-width: 1px;
+   
+}
+.abth h1 {
+  font-size: 80px;
+ 
+  line-height: 126px;
+  
+  -webkit-text-stroke-width: 2px;
+  
+}
+  .mob-h
+{
+  display: block;
+}
+.gc-sec {
+  
+  padding: 0 20px;
+}
+section.service-sec {
+ 
+  padding: 0 10px;
+}
+.loop-wrap
+{
+  z-index: 1;
+}
+.loop h1 span {
+  -webkit-text-stroke: 2px #000000;
+  padding: 0 10px;
+
+}
+.srlist-wrap.pt-24 {
+  padding: 0;
+}
+.work-sec {
+  
+  padding-top: 3rem !important;
+}
   .video-sec
   {
     display: none;
@@ -1254,7 +1475,7 @@ span.arw {
   }
   .px-9{padding-left:1rem;padding-right:1rem;}
   .loop-wrap{height: auto;overflow: hidden;}
-  .loop h1{font-size: 0.5em;}
+  .loop h1{font-size: 0.5em;padding: 0;}
   .m-h.h-wrp > div > h1{font-size:22px;}
   .m-h.h-wrp > div > h2 {
     font-size: 21px;
@@ -1276,8 +1497,8 @@ span.arw {
   .w-h h1{font-size:26px;}
   .w-h span{display: none;}
   ul.slist{flex-direction: column;gap: 20px;}
-  ul.slist.mb-20>li>div>h1, .s-h>h2{font-size:18px;text-align: center;}
-  ul.slist.mb-20>li>div>h4{font-size:42px;}
+  ul.slist.mb-20>li>div>h1, .s-h>h2{font-size:16px;text-align: center;margin-bottom: 12px;}
+  ul.slist.mb-20>li>div>h4{font-size:26px;}
   .mb-20{margin-bottom:2rem;}
   .mb-36{margin-bottom:3rem;}
   .py-48{padding-top:5rem;padding-bottom:5rem;}

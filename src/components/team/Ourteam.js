@@ -38,14 +38,14 @@ gamers, creators, and dreamers
           </div>
           <div className="team-img mb-36">
             <div
-              class="o-image_wrapper"
+              className="o-image_wrapper"
               data-scroll
               data-scroll-call="dynamicBackground"
               data-scroll-repeat
             >
-              <div class="o-image" data-scroll>
-                <Image
-                  class="c-speed-block_image"
+              <div className="o-image" data-scroll>
+                <Image 
+                  className="c-speed-block_image"
                   src={'/team/team.jpg'}
                   width={1920}  height={900}
                   alt="Locomotive image from unsplash"
@@ -68,11 +68,11 @@ gamers, creators, and dreamers
                       
                     </div>
                     <div className="tlh tline2">
-                      <h4>ahsan iqbal<span><Image src={'/team/crown.png'} width={32} height={32} /></span>ahsan iqbal<span><Image src={'/team/money.png'} width={32} height={32}/></span>ahsan iqbal<span><Image src={'/team/cal.png'} width={32} height={32}/></span></h4>
-                      <h4>ahsan iqbal<span><Image src={'/team/crown.png'} width={32} height={32} /></span>ahsan iqbal<span><Image src={'/team/money.png'} width={32} height={32}/></span>ahsan iqbal<span><Image src={'/team/cal.png'} width={32} height={32}/></span></h4>
+                      <h4>ahsan iqbal<span><Image alt="crown" src={'/team/crown.png'} width={32} height={32} /></span>ahsan iqbal<span><Image alt="money" src={'/team/money.png'} width={32} height={32}/></span>ahsan iqbal<span><Image alt="cal" src={'/team/cal.png'} width={32} height={32}/></span></h4>
+                      <h4>ahsan iqbal<span><Image alt="crown" src={'/team/crown.png'} width={32} height={32} /></span>ahsan iqbal<span><Image alt="money" src={'/team/money.png'} width={32} height={32}/></span>ahsan iqbal<span><Image alt="cal" src={'/team/cal.png'} width={32} height={32}/></span></h4>
                     </div>
                   </div>
-                  <Image src={'/team/ahsan.png'} width={600} height={750} />
+                  <Image alt="ahsan" src={'/team/ahsan.png'} width={600} height={750} />
                 </div>
                 <div className="tctnwp grid grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -102,11 +102,11 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Obaid Ahmed Khan<span><Image src={'/team/sleep.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image src={'/team/bike.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image src={'/team/ani.png'} width={32} height={32} /></span></h4>
-                      <h4>Obaid Ahmed Khan<span><Image src={'/team/sleep.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image src={'/team/bike.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image src={'/team/ani.png'} width={32} height={32} /></span></h4>
+                      <h4>Obaid Ahmed Khan<span><Image alt="sleep" src={'/team/sleep.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image alt="bike" src={'/team/bike.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image alt="ani" src={'/team/ani.png'} width={32} height={32} /></span></h4>
+                      <h4>Obaid Ahmed Khan<span><Image alt="sleep" src={'/team/sleep.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image alt="bike" src={'/team/bike.png'} width={32} height={32} /></span>Obaid Ahmed Khan<span><Image alt="ani" src={'/team/ani.png'} width={32} height={32} /></span></h4>
                     </div>
                   </div>
-                  <Image src={'/team/obid.png'} width={600} height={750}/>
+                  <Image alt="obid" src={'/team/obid.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -136,11 +136,11 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Muhammad Mukarram<span><Image src={'/team/ggame.png'} width={32} height={32}/></span>Muhammad Mukarram<span><Image src={'/team/movie.png'} width={32} height={32} /></span>Muhammad Mukarram<span><Image src={'/team/act.png'} width={32} height={32} /></span></h4>
-                      <h4>Muhammad Mukarram<span><Image src={'/team/ggame.png'} width={32} height={32}/></span>Muhammad Mukarram<span><Image src={'/team/movie.png'} width={32} height={32} /></span>Muhammad Mukarram<span><Image src={'/team/act.png'} width={32} height={32} /></span></h4>
+                      <h4>Muhammad Mukarram<span><Image alt="ggame" src={'/team/ggame.png'} width={32} height={32}/></span>Muhammad Mukarram<span><Image alt="movie" src={'/team/movie.png'} width={32} height={32} /></span>Muhammad Mukarram<span><Image alt="act" src={'/team/act.png'} width={32} height={32} /></span></h4>
+                      <h4>Muhammad Mukarram<span><Image alt="ggame" src={'/team/ggame.png'} width={32} height={32}/></span>Muhammad Mukarram<span><Image alt="movie" src={'/team/movie.png'} width={32} height={32} /></span>Muhammad Mukarram<span><Image alt="act" src={'/team/act.png'} width={32} height={32} /></span></h4>
                     </div>
                   </div>
-                  <Image src={'/team/muk.png'} width={600} height={750}/>
+                  <Image alt="muk" src={'/team/muk.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -170,11 +170,11 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Khizar Hayat<span><Image src={'/team/dance.png'} width={32} height={32}/></span>hizar Hayat<span><Image src={'/team/movie.png'} width={32} height={32} /></span>hizar Hayat<span><Image src={'/team/paint.png'} width={32} height={32} /></span></h4>
-                      <h4>Khizar Hayat<span><Image src={'/team/dance.png'} width={32} height={32}/></span>hizar Hayat<span><Image src={'/team/movie.png'} width={32} height={32} /></span>hizar Hayat<span><Image src={'/team/paint.png'} width={32} height={32} /></span></h4>
+                      <h4>Khizar Hayat<span><Image alt="dance" src={'/team/dance.png'} width={32} height={32}/></span>hizar Hayat<span><Image alt="movie" src={'/team/movie.png'} width={32} height={32} /></span>hizar Hayat<span><Image alt="paint" src={'/team/paint.png'} width={32} height={32} /></span></h4>
+                      <h4>Khizar Hayat<span><Image alt="dance" src={'/team/dance.png'} width={32} height={32}/></span>hizar Hayat<span><Image alt="movie" src={'/team/movie.png'} width={32} height={32} /></span>hizar Hayat<span><Image alt="paint" src={'/team/paint.png'} width={32} height={32} /></span></h4>
                     </div>
                   </div>
-                  <Image src={'/team/khi.png'} width={600} height={750}/>
+                  <Image alt="khi" src={'/team/khi.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -205,11 +205,11 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Midhat Nazim<span><Image src={'/team/travel.png'} width={32} height={32}/></span>Midhat Nazim<span><Image src={'/team/food.png'} width={32} height={32} /></span>Midhat Nazim<span><Image src={'/team/smile.png'} width={32} height={32} /></span></h4>
-                      <h4>Midhat Nazim<span><Image src={'/team/travel.png'} width={32} height={32}/></span>Midhat Nazim<span><Image src={'/team/food.png'} width={32} height={32} /></span>Midhat Nazim<span><Image src={'/team/smile.png'} width={32} height={32} /></span></h4>
+                      <h4>Midhat Nazim<span><Image alt="travel" src={'/team/travel.png'} width={32} height={32}/></span>Midhat Nazim<span><Image alt="food" src={'/team/food.png'} width={32} height={32} /></span>Midhat Nazim<span><Image alt="smile" src={'/team/smile.png'} width={32} height={32} /></span></h4>
+                      <h4>Midhat Nazim<span><Image alt="travel" src={'/team/travel.png'} width={32} height={32}/></span>Midhat Nazim<span><Image alt="food" src={'/team/food.png'} width={32} height={32} /></span>Midhat Nazim<span><Image alt="smile" src={'/team/smile.png'} width={32} height={32} /></span></h4>
                     </div>
                   </div>
-                  <Image src={'/team/mid.png'} width={600} height={750}/>
+                  <Image alt="mid" src={'/team/mid.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -239,11 +239,11 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Daniyal Khatib<span><Image src={'/team/movie.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image src={'/team/act.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image src={'/team/food.png'} width={32} height={32}/></span></h4>
-                      <h4>Daniyal Khatib<span><Image src={'/team/movie.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image src={'/team/act.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image src={'/team/food.png'} width={32} height={32}/></span></h4>
+                      <h4>Daniyal Khatib<span><Image alt="movie" src={'/team/movie.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image alt="act" src={'/team/act.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image alt="food" src={'/team/food.png'} width={32} height={32}/></span></h4>
+                      <h4>Daniyal Khatib<span><Image alt="movie" src={'/team/movie.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image alt="act" src={'/team/act.png'} width={32} height={32} /></span>Daniyal Khatib<span><Image alt="food" src={'/team/food.png'} width={32} height={32}/></span></h4>
                     </div>
                   </div>
-                  <Image src={'/team/daniyal.png'} width={600}  height={750} />
+                  <Image alt="daniyal" src={'/team/daniyal.png'} width={600}  height={750} />
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -275,11 +275,11 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Muhammad Ishaq Patni <span><Image src={'/team/vr.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image src={'/team/game.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image src={'/team/movie.png'} width={32} height={32}/></span></h4>
-                      <h4>Muhammad Ishaq Patni <span><Image src={'/team/vr.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image src={'/team/game.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image src={'/team/movie.png'} width={32} height={32}/></span></h4>
+                      <h4>Muhammad Ishaq Patni <span><Image alt="vr" src={'/team/vr.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image alt="game" src={'/team/game.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image alt="movie" src={'/team/movie.png'} width={32} height={32}/></span></h4>
+                      <h4>Muhammad Ishaq Patni <span><Image alt="vr" src={'/team/vr.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image alt="game" src={'/team/game.png'} width={32} height={32}/></span>Muhammad Ishaq Patni <span><Image alt="movie" src={'/team/movie.png'} width={32} height={32}/></span></h4>
                     </div>
                   </div>
-                  <Image src={'/team/ishaq.png'} width={600} height={750} />
+                  <Image alt="ishaq" src={'/team/ishaq.png'} width={600} height={750} />
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -309,12 +309,12 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Irfan Ahmed Shah<span><Image src={'/team/act.png'} width={32} height={32}/></span>Irfan Ahmed Shah<span><Image src={'/team/mark.png'} width={32} height={32} /></span>Irfan Ahmed Shah<span><Image src={'/team/vr.png'} width={32} height={32} /></span></h4>
-                      <h4>Irfan Ahmed Shah<span><Image src={'/team/act.png'} width={32} height={32}/></span>Irfan Ahmed Shah<span><Image src={'/team/mark.png'} width={32} height={32} /></span>Irfan Ahmed Shah<span><Image src={'/team/vr.png'} width={32} height={32} /></span></h4>
+                      <h4>Irfan Ahmed Shah<span><Image alt="act" src={'/team/act.png'} width={32} height={32}/></span>Irfan Ahmed Shah<span><Image alt="mark" src={'/team/mark.png'} width={32} height={32} /></span>Irfan Ahmed Shah<span><Image alt="vr" src={'/team/vr.png'} width={32} height={32} /></span></h4>
+                      <h4>Irfan Ahmed Shah<span><Image alt="act" src={'/team/act.png'} width={32} height={32}/></span>Irfan Ahmed Shah<span><Image alt="mark" src={'/team/mark.png'} width={32} height={32} /></span>Irfan Ahmed Shah<span><Image alt="vr" src={'/team/vr.png'} width={32} height={32} /></span></h4>
                 
                     </div>
                   </div>
-                  <Image src={'/team/irfan.png'} width={600} height={750}/>
+                  <Image alt="irfan" src={'/team/irfan.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -344,11 +344,11 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Syed Ahraz Zaheen<span><Image src={'/team/paint.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image src={'/team/swi.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image src={'/team/game.png'} width={32} height={32}/></span></h4>
-                      <h4>Syed Ahraz Zaheen<span><Image src={'/team/paint.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image src={'/team/swi.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image src={'/team/game.png'} width={32} height={32}/></span></h4>
+                      <h4>Syed Ahraz Zaheen<span><Image alt="paint" src={'/team/paint.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image alt="swi" src={'/team/swi.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image alt="game" src={'/team/game.png'} width={32} height={32}/></span></h4>
+                      <h4>Syed Ahraz Zaheen<span><Image alt="paint" src={'/team/paint.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image alt="swi" src={'/team/swi.png'} width={32} height={32}/></span>Syed Ahraz Zaheen<span><Image alt="game" src={'/team/game.png'} width={32} height={32}/></span></h4>
                     </div>
                   </div>
-                  <Image src={'/team/ahraz.png'} width={600} height={750}/>
+                  <Image alt="ahraz" src={'/team/ahraz.png'} width={600} height={750}/>
                 </div> 
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -378,12 +378,12 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                    <h4>Danish Patel<span><Image src={'/team/gym.png'} width={32} height={32} /></span>Danish Patel<span><Image src={'/team/boox.png'} width={32} height={32} /></span>Danish Patel<span><Image src={'/team/cyc.png'} width={32} height={32}/></span></h4>
-                    <h4>Danish Patel<span><Image src={'/team/gym.png'} width={32} height={32} /></span>Danish Patel<span><Image src={'/team/boox.png'} width={32} height={32} /></span>Danish Patel<span><Image src={'/team/cyc.png'} width={32} height={32}/></span></h4>
+                    <h4>Danish Patel<span><Image alt="gym" src={'/team/gym.png'} width={32} height={32} /></span>Danish Patel<span><Image alt="boox" src={'/team/boox.png'} width={32} height={32} /></span>Danish Patel<span><Image alt="cyc" src={'/team/cyc.png'} width={32} height={32}/></span></h4>
+                    <h4>Danish Patel<span><Image alt="gym" src={'/team/gym.png'} width={32} height={32} /></span>Danish Patel<span><Image alt="boox" src={'/team/boox.png'} width={32} height={32} /></span>Danish Patel<span><Image alt="cyc" src={'/team/cyc.png'} width={32} height={32}/></span></h4>
                     
                     </div>
                   </div>
-                  <Image src={'/team/danish.png'} width={600} height={750}/>
+                  <Image alt="Danish  Patel" src={'/team/danish.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -413,12 +413,12 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>anusha ather<span><Image src={'/team/read.png'} width={32} height={32}/></span>anusha ather<span><Image src={'/team/cookie.png'} width={32} height={32}/></span>anusha ather<span><Image src={'/team/coffee.png'} width={32} height={32}/></span></h4>
-                      <h4>anusha ather<span><Image src={'/team/read.png'} width={32} height={32}/></span>anusha ather<span><Image src={'/team/cookie.png'} width={32} height={32}/></span>anusha ather<span><Image src={'/team/coffee.png'} width={32} height={32}/></span></h4>
+                      <h4>anusha ather<span><Image alt="read" src={'/team/read.png'} width={32} height={32}/></span>anusha ather<span><Image alt="cookie" src={'/team/cookie.png'} width={32} height={32}/></span>anusha ather<span><Image alt="coffee" src={'/team/coffee.png'} width={32} height={32}/></span></h4>
+                      <h4>anusha ather<span><Image alt="read" src={'/team/read.png'} width={32} height={32}/></span>anusha ather<span><Image alt="cookie" src={'/team/cookie.png'} width={32} height={32}/></span>anusha ather<span><Image alt="coffee" src={'/team/coffee.png'} width={32} height={32}/></span></h4>
                     
                     </div>
                   </div>
-                  <Image src={'/team/anusha.png'} width={600} height={750}/>
+                  <Image alt="Anusha Ather" src={'/team/anusha.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">
@@ -448,13 +448,13 @@ gamers, creators, and dreamers
 
                     </div>
                     <div className="tlh tline2">
-                      <h4>Fatima Ali<span><Image src={'/team/hash.png'} width={32} height={32}/></span>Fatima Ali<span><Image src={'/team/social.png'} width={32} height={32}/></span>Fatima Ali<span><Image src={'/team/mark.png'} width={32} height={32}/></span></h4>
-                      <h4>Fatima Ali<span><Image src={'/team/hash.png'} width={32} height={32}/></span>Fatima Ali<span><Image src={'/team/social.png'} width={32} height={32}/></span>Fatima Ali<span><Image src={'/team/mark.png'} width={32} height={32}/></span></h4>
+                      <h4>Fatima Ali<span><Image alt="hash" src={'/team/hash.png'} width={32} height={32}/></span>Fatima Ali<span><Image alt="social" src={'/team/social.png'} width={32} height={32}/></span>Fatima Ali<span><Image alt="mark" src={'/team/mark.png'} width={32} height={32}/></span></h4>
+                      <h4>Fatima Ali<span><Image alt="hash" src={'/team/hash.png'} width={32} height={32}/></span>Fatima Ali<span><Image alt="social" src={'/team/social.png'} width={32} height={32}/></span>Fatima Ali<span><Image alt="mark" src={'/team/mark.png'} width={32} height={32}/></span></h4>
                      
                     
                     </div>
                   </div>
-                  <Image src={'/team/fatima.png'} width={600} height={750}/>
+                  <Image alt="fatima" src={'/team/fatima.png'} width={600} height={750}/>
                 </div>
                 <div className="tctnwp grid-cols-1 md:grid-cols-2 items-center">
                   <div className="tctn s-h">

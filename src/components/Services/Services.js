@@ -52,7 +52,7 @@ We approach you as a partner and expand on your vision by presenting you with fr
                     <li>
                         <div className="sr-box s-h p1">
                             <div className="srbox-h">
-                                <h5>04</h5>
+                                <h5>02</h5>
                                 <h4>Concept Art</h4>
                                 <Link href={'/services'}><BsArrowUpRight/></Link>
                             </div>
@@ -65,7 +65,7 @@ From pixel art to high-resolution, we have got you covered !</p>
                     <li>
                         <div className="sr-box s-h p1">
                             <div className="srbox-h">
-                                <h5>07</h5>
+                                <h5>03</h5>
                                 <h4>Game Analytics</h4>
                                 <Link href={'/services'}><BsArrowUpRight/></Link>
                             </div>
@@ -82,7 +82,7 @@ We utilize advanced data analysis and tracking tools to monitor the behavior of 
                     <li>
                         <div className="sr-box s-h p1">
                             <div className="srbox-h">
-                                <h5>02</h5>
+                                <h5>04</h5>
                                 <h4>Game Maintenance</h4>
                                 <Link href={'/services'}><BsArrowUpRight/></Link>
                             </div>
@@ -108,7 +108,7 @@ We provide quest, level designs, and game economy designs.</p>
                     <li>
                         <div className="sr-box s-h p1">
                             <div className="srbox-h">
-                                <h5>08</h5>
+                                <h5>06</h5>
                                 <h4>Game Porting </h4>
                                 <Link href={'/services'}><BsArrowUpRight/></Link>
                             </div>
@@ -125,7 +125,7 @@ Our team of experienced game developers and testers have extensive experience in
                     <li>
                         <div className="sr-box s-h p1">
                             <div className="srbox-h">
-                                <h5>03</h5>
+                                <h5>07</h5>
                                 <h4>Asset Production</h4>
                                 <Link href={'/services'}><BsArrowUpRight/></Link>
                             </div>
@@ -136,7 +136,7 @@ Our team of experienced game developers and testers have extensive experience in
                     <li>
                         <div className="sr-box s-h p1">
                             <div className="srbox-h">
-                                <h5>06</h5>
+                                <h5>08</h5>
                                 <h4>Animation</h4>
                                 <Link href={'/services'}><BsArrowUpRight/></Link>
                             </div>

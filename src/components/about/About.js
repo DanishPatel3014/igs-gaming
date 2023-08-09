@@ -3,17 +3,21 @@ import React, { useEffect, useState } from "react";
 import { BsArrowUpRight } from 'react-icons/bs';
 import ReactCurvedText from 'react-curved-text';
 import { BsArrow90DegDown } from 'react-icons/bs'
+import { gsap } from "gsap";
 
 export default function About() {
 
+ 
+  
+
   return (
     <>
-      <section className="about-sec py-36" data-scroll-section>
+      <section  className="about-sec py-36" data-scroll-section>
         <div className="container  mx-auto"  >
           <div className="m-h h-wrp">
             <div className="h-wrp mb-28">
               <h1>
-              We're All About Epic Gaming<br /> Vibes It's All We Live For
+              We're All About Epic Gaming  Vibes It's All We Live For
               </h1>
               <h2><span>*</span> Serving Adventures  <span>*</span></h2>
               <h1>That Rock Your Socks Off!</h1>

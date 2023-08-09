@@ -20,26 +20,26 @@ export default function Footer() {
           </h1>
         </div>
         <div className="ft-slink mb-28">
-          <div class="page14-inner">
+          <div className="page14-inner">
             <h1>Facebook</h1>
             <Link target="_blank" href={"https://www.facebook.com/InnovativeGameStudio"}>
               <BsArrowUpRight />
             </Link>
-            <div class="center14"></div>
+            <div className="center14"></div>
           </div>
-          <div class="page14-inner">
+          <div className="page14-inner">
             <h1>LinkedIn</h1>
             <Link target="_blank" href={"https://www.linkedin.com/company/innovative-game-studio/"}>
               <BsArrowUpRight />
             </Link>
-            <div class="center14"></div>
+            <div className="center14"></div>
           </div>
-          <div class="page14-inner">
+          <div className="page14-inner">
             <h1>Instagram</h1>
             <Link target="_blank" href={"https://www.instagram.com/innovativegame.studio/"}>
               <BsArrowUpRight />
             </Link>
-            <div class="center14"></div>
+            <div className="center14"></div>
           </div>
         </div>
         <div className="footerwarp px-24">
@@ -63,7 +63,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-9 ">
             <div className="loc-box s-h p1">
                 <h4>Pakistan <span>HQ</span></h4>
-                <div class="divider"></div>
+                <div className="divider"></div>
                <ul className="add">
                 <li>
                     <div className="addbx">
@@ -87,7 +87,7 @@ export default function Footer() {
             </div>
             <div className="loc-box s-h p1">
                 <h4>Canada</h4>
-                <div class="divider"></div>
+                <div className="divider"></div>
                <ul className="add">
                 <li>
                     <div className="addbx">
@@ -111,7 +111,7 @@ export default function Footer() {
             </div>
             <div className="loc-box s-h p1">
                 <h4>USA </h4>
-                <div class="divider"></div>
+                <div className="divider"></div>
                <ul className="add">
                 <li>
                     <div className="addbx">
@@ -135,7 +135,7 @@ export default function Footer() {
             </div>
             <div className="loc-box s-h p1">
                 <h4>Riyadh </h4>
-                <div class="divider"></div>
+                <div className="divider"></div>
                <ul className="add">
                 <li>
                     <div className="addbx">
@@ -159,7 +159,7 @@ export default function Footer() {
               <div className="logo drop-shadow-2xl">igs</div>
             </div>
             <div className="inpl p1">
-                <p>Copyright © 2023 <Link href={'https://innovative-net.com/'} target="_blank"><Image src={'/inpl.png'} width={574} height={387}  /></Link> All rights reserved.</p>
+                <p>Copyright © 2023 <Link href={'https://innovative-net.com/'} target="_blank"><Image alt="innovativenetwork" src={'/inpl.png'} width={574} height={387}  /></Link> All rights reserved.</p>
             </div>
         </div>
         </div>

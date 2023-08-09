@@ -128,7 +128,7 @@ export default function Infovideo() {
         <video
           className="vid"
           id="vid"
-          autoplay={true}
+          autoPlay={true}
           loop={true}
           muted
           controls={false}

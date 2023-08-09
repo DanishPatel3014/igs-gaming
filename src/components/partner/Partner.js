@@ -17,7 +17,7 @@ export default function Partner() {
             >
               Our Experience
               <span>
-                <Image src={hat} />
+                <Image alt="hat"  width={128}  height={128} src={"/icon/hat.png"} />
               </span>
             </h1>
             <h1
@@ -26,7 +26,7 @@ export default function Partner() {
               data-scroll-speed="2"
             >
               <span>
-                <Image src={cuup} />
+                <Image alt="cuup" width={128}  height={128} src={'/icon/cup.png'} />
               </span>
               can be evaluated
             </h1>
@@ -37,44 +37,44 @@ export default function Partner() {
             >
               by our Clients
               <span>
-                <Image src={headache} />
+                <Image alt="headache" width={128}  height={128} src={'/icon/headache.png'} />
               </span>
             </h1>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4  gap-9 items-center partnerSec">
             <div className="part-logo">
-              <Image src={'/logos/p1.png'} width={521} height={160} />
+              <Image alt="p1" src={'/logos/p1.png'} width={521} height={160} />
             </div>
             <div className="part-logo">
-              <Image src={'/logos/p2.png'}  width={521} height={160}/>
+              <Image alt="p2" src={'/logos/p2.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={'/logos/p3.png'}  width={521} height={160}/>
+              <Image alt="p3" src={'/logos/p3.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={'/logos/p4.png'}  width={521} height={160}/>
+              <Image alt="p4" src={'/logos/p4.png'}  width={521} height={160}/>
             </div>
             <div className="part-circle"></div>
             <div className="part-logo">
-              <Image src={'/logos/p5.png'}  width={521} height={160}/>
+              <Image alt="p5" src={'/logos/p5.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={'/logos/p6.png'}  width={521} height={160}/>
+              <Image alt="p6" src={'/logos/p6.png'}  width={521} height={160}/>
             </div>
             <div className="part-circle">
              
             </div>
             <div className="part-logo">
-              <Image src={'/logos/p7.png'}  width={521} height={160}/>
+              <Image alt="p7" src={'/logos/p7.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={'/logos/p8.png'} width={521} height={160} />
+              <Image alt="p8" src={'/logos/p8.png'} width={521} height={160} />
             </div>
             <div className="part-logo">
-              <Image src={'/logos/p9.png'}  width={521} height={160}/>
+              <Image alt="p9" src={'/logos/p9.png'}  width={521} height={160}/>
             </div>
             <div className="part-logo">
-              <Image src={'/logos/p10.png'} width={521} height={160} />
+              <Image alt="p10" src={'/logos/p10.png'} width={521} height={160} />
             </div>
           </div>
         </div>
