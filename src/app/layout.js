@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
         </main>
 
         } */}
-        <Preloader/>
+        {/* <Preloader/> */}
         <main data-scroll-container>
           <div>{children}</div>
         </main>

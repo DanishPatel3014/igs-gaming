@@ -1,7 +1,4 @@
 import React from "react";
-import headache from "src/assets/images/icon/headache.png";
-import hat from "src/assets/images/icon/hat.png";
-import cuup from "src/assets/images/icon/cup.png";
 import Image from "next/image";
 
 export default function Partner() {

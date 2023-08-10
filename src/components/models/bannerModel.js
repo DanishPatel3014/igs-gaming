@@ -6,7 +6,6 @@ import { useControls } from "leva";
 export default function BannerModel() {
 
  
-  // useGLTF("/Man/gLTF/Man.gltf");
   const soldiers = useGLTF("/Man/man.glb");
   const animations = useAnimations(soldiers.animations, soldiers.scene);
   useEffect(() => {

@@ -676,6 +676,7 @@ ul.btn-list a:hover svg {
 {
   position: relative;
  z-index: 1;
+ background-color: #000;
 }
 .topvid {
     height: 134px;
@@ -877,7 +878,7 @@ background-color: #b8e132;;
 .footer-sec
 {
   background-color: #1a1a1a;
-min-height: 1800px;
+
 }
 .fot-line {
   display: flex;
@@ -1333,7 +1334,10 @@ span.arw {
   ul.btn-list a{font-size: 16px;}
   .w-h h1{font-size:36px;}
   .partnerSec>div{padding:0;}
-
+  .cursor
+  {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px){

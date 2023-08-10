@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
-import inpl from '../../assets/images/inpl.png'
+
 
 export default function Footer() {
   return (

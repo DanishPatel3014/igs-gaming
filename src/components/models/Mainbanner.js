@@ -10,7 +10,7 @@ export default function Mainbanner() {
   return (
     <>
        <section className="mainbanner" id="direction" >
-       <video
+       {/* <video
           className="vide"
           id="vide"
           autoPlay={true}
@@ -19,7 +19,7 @@ export default function Mainbanner() {
           controls={false}
         >
           <source src="/images/banvideo.mp4" />
-        </video>
+        </video> */}
           <div className="loop-wrap " data-scroll-section>
             <div
               className="loop"
