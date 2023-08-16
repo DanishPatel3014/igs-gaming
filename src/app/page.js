@@ -16,6 +16,7 @@ import Infovideo from "@/components/infovideo/Infovideo";
 import Partner from "@/components/partner/Partner";
 import Footer from "@/components/footer/Footer";
 import Head from "next/head";
+import Preloader from "@/components/loaders/Preloader";
 
 export default function Home() {
 
@@ -56,6 +57,8 @@ export default function Home() {
   //   scroll && scroll.scrollTo(0);
   // };
   return (
+   <>
+    <Preloader/>
     <SmoothScrollProvider  options={{ smooth: true }}   >
       <Header />
       <Mainbanner />
@@ -66,5 +69,6 @@ export default function Home() {
       <Partner />
       <Footer />
     </SmoothScrollProvider>
+   </>
   );
 }

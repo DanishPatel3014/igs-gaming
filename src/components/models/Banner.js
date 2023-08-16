@@ -15,7 +15,7 @@ function Rig() {
 //   const vec = new THREE.Vector3();
 
 //   return useFrame(() => {
-//     camera.position.lerp(vec.set(mouse.x, mouse.y, camera.position.z), 0.5);
+//     camera.position.lerp(vec.set(mouse.x, 0, camera.position.z), 0.5);
 //     camera.lookAt(0, 0, 0);
 //   });
 // }

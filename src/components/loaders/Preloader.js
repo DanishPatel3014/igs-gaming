@@ -30,11 +30,12 @@ function Preloader() {
 
     gsap.to(".mainWrap", {
       opacity: 0,
-      delay: '5.4'
+      delay: '14',
+      
     })
     gsap.to(".preloader", {
       opacity: 0,
-      delay: '5.9',
+      delay: '14',
       display : 'none',
       duration: 2,
     })
@@ -83,7 +84,7 @@ function Preloader() {
           </div>
           {/* Counter or loading animation */}
           <div className="counter pre-ctn">
-            <CountUp delay={0.9} start={0} end={100} duration={6} />
+            <CountUp delay={0.9} start={0} end={100} duration={8} />
           </div>
         </div>
       

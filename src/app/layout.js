@@ -3,7 +3,7 @@ import "./globals.css";
 import "../assets/css/base.css";
 import { Inter } from "next/font/google";
 import { useEffect, useRef, useState } from "react";
-import Preloader from "@/components/loaders/Preloader";
+// import Preloader from "@/components/loaders/Preloader";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
         </main>
 
         } */}
-        {/* <Preloader/> */}
+       
         <main data-scroll-container>
           <div>{children}</div>
         </main>
