@@ -16,6 +16,7 @@
     "@react-three/fiber": "^8.13.3",
     "@types/gsap": "^3.0.0",
     "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
     "gsap": "^3.11.5",
     "leva": "^0.9.35",
     "lil-gui": "^0.18.1",
