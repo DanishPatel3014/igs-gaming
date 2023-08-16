@@ -1,10 +1,12 @@
+"use client";
 import React from 'react'
+import { useState } from 'react';
 import { BsArrowUpRight } from 'react-icons/bs';
+import axios from 'axios';
 
 export default function Contact() {
 
   const [formData, setFormData] = useState({
-    action: 'CONTACT',
     name: '',
     email: '',
     phone: '',
@@ -12,14 +14,17 @@ export default function Contact() {
   });
 
   const submitContactForm = async () => {
-    let response = await POST('/mailtest/emailer.php', formData,
+    console.log(formData)
+    let response = await axios.post('/submit.php', formData,
       {
         'Content-Type': 'application/x-www-form-urlencoded',
       }
     );
+debugger
+    console.log(response)
+    debugger
 
     setFormData({
-      action: 'CONTACT',
       name: '',
       email: '',
       phone: '',
@@ -64,7 +69,7 @@ export default function Contact() {
               </div>
               <div className='ct-bx'>
                 <label>Whats your number?</label>
-                <input placeholder='Phone Number' type='number' onChange={(e) => setFormData({ ...formData, phone: e.target.value })} />
+                <input placeholder='Phone Number' type='phone' onChange={(e) => setFormData({ ...formData, phone: e.target.value })} />
               </div>
               <div className='ct-bx'>
                 <label>Tell us about your project</label>
