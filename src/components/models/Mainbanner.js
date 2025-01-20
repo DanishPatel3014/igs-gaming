@@ -18,7 +18,7 @@ export default function Mainbanner() {
           muted
           controls={false}
         >
-          <source src="/images/banvideo.mp4" />
+          <source src="/images/game2.mp4" />
         </video> */}
           <div className="loop-wrap " data-scroll-section>
             <div

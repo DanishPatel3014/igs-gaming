@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
 
         } */}
        
-        <main data-scroll-container>
+        <main id="maindiv">
           <div>{children}</div>
         </main>
       </body>

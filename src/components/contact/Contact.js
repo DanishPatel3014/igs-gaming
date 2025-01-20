@@ -1,38 +1,42 @@
-"use client";
-import React from 'react'
-import { useState } from 'react';
-import { BsArrowUpRight } from 'react-icons/bs';
-import axios from 'axios';
+import React from "react";
+import { useState } from "react";
+import { BsArrowUpRight } from "react-icons/bs";
+import axios from "axios";
 
 export default function Contact() {
-
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
   });
 
   const submitContactForm = async () => {
-    console.log(formData)
-    let response = await axios.post('/submit.php', formData,
-      {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      }
-    );
-debugger
-    console.log(response)
-    debugger
+    const axios = require('axios');
+  const FormData = require('form-data');
+  let data = new FormData();
+  data.append('name', 'danishgb');
+  data.append('email', 'danish@.com');
+  data.append('phone', '00222565');
+  data.append('message', 'fddfdfdf');
 
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
-    });
+  let config = {
+    method: 'post',
+    maxBodyLength: Infinity,
+    url: 'https://innovativegamestudio.com/submit.php',
 
-    alert(response?.message);
-  }
+    data : data
+  };
+
+  axios.request(config)
+  .then((response) => {
+    console.log(JSON.stringify(response.data));
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
+  };
 
   return (
     <>
@@ -55,34 +59,65 @@ debugger
                 </div>
               </li>
             </ul>
-
           </div>
-          <div className='ct-wrap'>
-            <form>
-              <div className='ct-bx'>
+          <div className="ct-wrap">
+            <form id="basicForm" method="post">
+              <div className="ct-bx">
                 <label>Whats your name?</label>
-                <input placeholder='Full Name' type='text' onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
+                <input
+                  placeholder="Full Name"
+                  type="text"
+                  // onChange={(e) =>
+                  //   setFormData({ ...formData, name: e.target.value })
+                  // }
+                  name="name"
+                />
               </div>
-              <div className='ct-bx'>
+              <div className="ct-bx">
                 <label>Your email?</label>
-                <input placeholder='Email Address' type='email' onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
+                <input
+                  placeholder="Email Address"
+                  type="email"
+                  // onChange={(e) =>
+                  //   setFormData({ ...formData, email: e.target.value })
+                  // }
+                  name="email"
+                />
               </div>
-              <div className='ct-bx'>
+              <div className="ct-bx">
                 <label>Whats your number?</label>
-                <input placeholder='Phone Number' type='phone' onChange={(e) => setFormData({ ...formData, phone: e.target.value })} />
+                <input
+                  placeholder="Phone Number"
+                  type="phone"
+                  // onChange={(e) =>
+                  //   setFormData({ ...formData, phone: e.target.value })
+                  // }
+                  name="phone"
+                />
               </div>
-              <div className='ct-bx'>
+              <div className="ct-bx">
                 <label>Tell us about your project</label>
-                <input placeholder='Project overview' type='text' onChange={(e) => setFormData({ ...formData, message: e.target.value })} />
+                <input
+                  placeholder="Project overview"
+                  type="text"
+                  // onChange={(e) =>
+                  //   setFormData({ ...formData, message: e.target.value })
+                  // }
+                  name="message"
+                />
               </div>
-              <div className='ct-btn'>
-
-                <button onClick={() => submitContactForm()}>Submit Form<span className='arw'><BsArrowUpRight /></span></button>
+              <div className="ct-btn">
+                <button onClick={() => submitContactForm()}>
+                  Submit Form
+                  <span className="arw">
+                    <BsArrowUpRight />
+                  </span>
+                </button>
               </div>
             </form>
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }

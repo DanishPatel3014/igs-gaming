@@ -12,7 +12,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 export function Man(props) {
     
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("https://nightdistrict.thewebtestlink.xyz/webgl/man.glb");
+  const { nodes, materials, animations } = useGLTF("/man.glb");
   const { actions } = useAnimations(animations, group);
   useEffect(() => {
     //somehow trigger useGLTF and useAnimations to load the new animation HERE using animationFileToPlay
@@ -72,4 +72,4 @@ export function Man(props) {
   );
 }
 
-useGLTF.preload("https://nightdistrict.thewebtestlink.xyz/webgl/man.glb");
+useGLTF.preload("/man.glb");
